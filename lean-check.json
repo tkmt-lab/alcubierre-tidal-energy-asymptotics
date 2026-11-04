@@ -1,0 +1,13 @@
+{
+  "level": "L1 statement only",
+  "formal_proof": false,
+  "lean_version": "Lean (version 4.35.0, arm64-apple-darwin24.6.0, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+  "runtime_used_read_only": true,
+  "statement_sha256": "706875e54c20ef6e90ea62934c09ff5993d48c09b10f05ed6c5e60a3f43e29ae",
+  "mathlib_manifest_sha256": "d7a73ee540d4ab15677db707b30c584a3720fd3eb3427d3e811b1b063118ad4e",
+  "returncode": 0,
+  "stdout": "FiniteWallTidal.MainClaim : Prop\nFiniteWallTidal.UniformLimitClaim : Prop\n",
+  "stderr": "",
+  "record_status": "Historical successful L1 type-check; not rerun for v1.2",
+  "statement_strength": "Weaker consequence of Theorem 1 with existential error constants; explicit numerical constants are not encoded"
+}

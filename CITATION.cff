@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the article and its reproducibility package."
+title: "Sharp first-order energy correction under an Eulerian tidal bound for finite-wall Alcubierre profiles"
+version: "1.2"
+type: software
+authors:
+  - family-names: Takimoto
+    given-names: Tatsuhiko
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+abstract: "Uniform first-order coefficient for the radial energy infimum under the specified all-angle Eulerian electric-Riemann norm constraint, with an analytic proof and exact finite examples. Lean L1 records a weaker statement only."
+preferred-citation:
+  type: article
+  title: "Sharp first-order energy correction under an Eulerian tidal bound for finite-wall Alcubierre profiles"
+  authors:
+    - family-names: Takimoto
+      given-names: Tatsuhiko
+  version: "1.2"
+  year: 2026

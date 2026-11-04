@@ -1,0 +1,309 @@
+[
+  {
+    "key": "bobrickmartire",
+    "url": "https://api.crossref.org/works/10.1088/1361-6382/abdf6e",
+    "retrieved_utc": "2026-10-26T16:25:46.255570+00:00",
+    "response_sha256": "2de2f07590c256931f1e7aac1108a9b4dca19b01c1a93b3efede8c5e3ff92932",
+    "DOI": "10.1088/1361-6382/abdf6e",
+    "title": [
+      "Introducing physical warp drives"
+    ],
+    "container-title": [
+      "Classical and Quantum Gravity"
+    ],
+    "volume": "38",
+    "issue": "10",
+    "page": "105009",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          20
+        ]
+      ]
+    },
+    "link": [
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/abdf6e",
+        "content-type": "text/html",
+        "content-version": "am",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/abdf6e/pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/abdf6e",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/abdf6e/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/abdf6e/pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/abdf6e/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/abdf6e/pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "similarity-checking"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/abdf6e/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  {
+    "key": "fellheisenberg",
+    "url": "https://api.crossref.org/works/10.1088/1361-6382/ac0e47",
+    "retrieved_utc": "2026-10-26T16:25:47.973715+00:00",
+    "response_sha256": "27b7092107b285c714708080d774037763ac3b53e667911961c3bae9816ac073",
+    "DOI": "10.1088/1361-6382/ac0e47",
+    "title": [
+      "Positive energy warp drive from hidden geometric structures"
+    ],
+    "container-title": [
+      "Classical and Quantum Gravity"
+    ],
+    "volume": "38",
+    "issue": "15",
+    "page": "155020",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          16
+        ]
+      ]
+    },
+    "link": [
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/ac0e47",
+        "content-type": "text/html",
+        "content-version": "am",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/ac0e47/pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/ac0e47",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/ac0e47/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/ac0e47/pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/ac0e47/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/ac0e47/pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "similarity-checking"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/ac0e47/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  {
+    "key": "warpfactory",
+    "url": "https://api.crossref.org/works/10.1088/1361-6382/ad2e42",
+    "retrieved_utc": "2026-10-26T16:25:49.513120+00:00",
+    "response_sha256": "9b1e0a6b7194f2e819e00f14ca253036acec8b297380b77d394845a963387f4f",
+    "DOI": "10.1088/1361-6382/ad2e42",
+    "title": [
+      "Analyzing warp drive spacetimes with Warp Factory"
+    ],
+    "container-title": [
+      "Classical and Quantum Gravity"
+    ],
+    "volume": "41",
+    "issue": "9",
+    "page": "095009",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          5
+        ]
+      ]
+    },
+    "link": [
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/ad2e42",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/ad2e42/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/ad2e42/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/ad2e42/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  {
+    "key": "lentz",
+    "url": "https://api.crossref.org/works/10.1088/1361-6382/abe692",
+    "retrieved_utc": "2026-10-26T16:25:51.086056+00:00",
+    "response_sha256": "8c1b703e3c549cd45406ad2aada8fbe70d9b9e10e76b55476b24c75fae11b6b9",
+    "DOI": "10.1088/1361-6382/abe692",
+    "title": [
+      "Breaking the warp barrier: hyper-fast solitons in Einstein–Maxwell-plasma theory"
+    ],
+    "container-title": [
+      "Classical and Quantum Gravity"
+    ],
+    "volume": "38",
+    "issue": "7",
+    "page": "075015",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          9
+        ]
+      ]
+    },
+    "link": [
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/abe692",
+        "content-type": "text/html",
+        "content-version": "am",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/abe692/pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/abe692",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/abe692/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/abe692/pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/abe692/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/abe692/pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "similarity-checking"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/abe692/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  {
+    "key": "lobovisser",
+    "url": "https://api.crossref.org/works/10.1088/0264-9381/21/24/011",
+    "retrieved_utc": "2026-10-26T16:25:52.659362+00:00",
+    "response_sha256": "06b342de399630393c0e31610e6ed1be07b922a022927b9a99e78e3b476e29dc",
+    "DOI": "10.1088/0264-9381/21/24/011",
+    "title": [
+      "Fundamental limitations on ‘warp drive’ spacetimes"
+    ],
+    "container-title": [
+      "Classical and Quantum Gravity"
+    ],
+    "volume": "21",
+    "issue": "24",
+    "page": "5871-5892",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2004,
+          11,
+          26
+        ]
+      ]
+    },
+    "link": null
+  }
+]

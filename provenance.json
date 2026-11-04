@@ -1,0 +1,213 @@
+{
+  "version": "1.2",
+  "prepared_utc": "2026-10-26T16:56:59.360535+00:00",
+  "input_commit": "815aebd1c03f8cb108030bf7fb73751021237969",
+  "reference_layout_commit": "5849fdd83b801cd65659a88ad70805c4ec54bd76",
+  "proposed_repository": "alcubierre-tidal-energy-asymptotics",
+  "exported_inputs": [
+    {
+      "path": "paper.tex",
+      "input_commit": "815aebd1c03f8cb108030bf7fb73751021237969",
+      "input_source": "studies/R036/paper-v1.1-2026-10-27/paper.tex",
+      "input_sha256": "ab3dab18d769adfdb19205805534f95eb24caccfc29f40acb698d7ebc8e44541",
+      "exported_sha256": "a23aaf37eb01a55514da58baafe6d3eb591fe7f8d328bd3c3ce98911a009fbfd",
+      "exported_bytes": 23139,
+      "byte_identical": false,
+      "transformation": "Version label and the two accepted cosmetic corrections; mathematical formulas unchanged."
+    },
+    {
+      "path": "table.tex",
+      "input_commit": "815aebd1c03f8cb108030bf7fb73751021237969",
+      "input_source": "studies/R036/paper-v1.1-2026-10-27/table.tex",
+      "input_sha256": "2d741a00c1b926456ff17b4b5c1c02267e6b1618addfa447e511f9c619b6e733",
+      "exported_sha256": "2d741a00c1b926456ff17b4b5c1c02267e6b1618addfa447e511f9c619b6e733",
+      "exported_bytes": 1333,
+      "byte_identical": true
+    },
+    {
+      "path": "bibliography.tex",
+      "input_commit": "815aebd1c03f8cb108030bf7fb73751021237969",
+      "input_source": "studies/R036/paper-v1.1-2026-10-27/bibliography.tex",
+      "input_sha256": "e922ec0c32d5e0efc6d9c1c9aabbeb13bc88f85ea2ad505af939ea7355e83d99",
+      "exported_sha256": "e922ec0c32d5e0efc6d9c1c9aabbeb13bc88f85ea2ad505af939ea7355e83d99",
+      "exported_bytes": 3196,
+      "byte_identical": true
+    },
+    {
+      "path": "references.json",
+      "input_commit": "815aebd1c03f8cb108030bf7fb73751021237969",
+      "input_source": "studies/R036/paper-v1.1-2026-10-27/references.json",
+      "input_sha256": "e1bb53556766a35f1aa11135ed809d676eec47ab22d09f6e902d56211a820e51",
+      "exported_sha256": "e1bb53556766a35f1aa11135ed809d676eec47ab22d09f6e902d56211a820e51",
+      "exported_bytes": 3396,
+      "byte_identical": true
+    },
+    {
+      "path": "build_references.py",
+      "input_commit": "815aebd1c03f8cb108030bf7fb73751021237969",
+      "input_source": "studies/R036/paper-v1.1-2026-10-27/build_references.py",
+      "input_sha256": "88debed3eccafaca2c6ce7be37a85ae6b219195bb64d1604100e1c2daa03fd57",
+      "exported_sha256": "88debed3eccafaca2c6ce7be37a85ae6b219195bb64d1604100e1c2daa03fd57",
+      "exported_bytes": 1580,
+      "byte_identical": true
+    },
+    {
+      "path": "reproduce.py",
+      "input_commit": "815aebd1c03f8cb108030bf7fb73751021237969",
+      "input_source": "studies/R036/paper-v1.1-2026-10-27/reproduce.py",
+      "input_sha256": "66287ba45542c13f66abf6bc04afc4f9df104ac7060affa84581f14969481a25",
+      "exported_sha256": "a1674b11bb464b192a32f3200b9c045f6d045e9764a7945f7fd9aa8361a10752",
+      "exported_bytes": 5310,
+      "byte_identical": false,
+      "transformation": "Finite-example descriptive prose only; numerical computation unchanged."
+    },
+    {
+      "path": "rational-intervals.json",
+      "input_commit": "815aebd1c03f8cb108030bf7fb73751021237969",
+      "input_source": "studies/R036/paper-v1.1-2026-10-27/rational-intervals.json",
+      "input_sha256": "152d6a72d017fa56cfb70aabbf14271ae760d4a15b0ac56a29105b9439f305ce",
+      "exported_sha256": "152d6a72d017fa56cfb70aabbf14271ae760d4a15b0ac56a29105b9439f305ce",
+      "exported_bytes": 257098,
+      "byte_identical": true
+    },
+    {
+      "path": "FINITE-EXAMPLES.md",
+      "input_commit": "815aebd1c03f8cb108030bf7fb73751021237969",
+      "input_source": "studies/R036/paper-v1.1-2026-10-27/FINITE-EXAMPLES.md",
+      "input_sha256": "545ead798b6522e44c3050ce9318ff82c89dea7b14150385560f907353e36a6d",
+      "exported_sha256": "673afe5a9a16bfd086a279eadeda499c544c7584c7871ddb928894b4f8f6f3fb",
+      "exported_bytes": 1968,
+      "byte_identical": false,
+      "transformation": "Regenerated after the descriptive prose change."
+    },
+    {
+      "path": "symbolic_check.py",
+      "input_commit": "815aebd1c03f8cb108030bf7fb73751021237969",
+      "input_source": "studies/R036/paper-v1.1-2026-10-27/symbolic_check.py",
+      "input_sha256": "90843e94661a8f68d4db8d20333b1b54674cbce86866a71c52bef942b854ddee",
+      "exported_sha256": "90843e94661a8f68d4db8d20333b1b54674cbce86866a71c52bef942b854ddee",
+      "exported_bytes": 4225,
+      "byte_identical": true
+    },
+    {
+      "path": "symbolic-result.json",
+      "input_commit": "815aebd1c03f8cb108030bf7fb73751021237969",
+      "input_source": "studies/R036/paper-v1.1-2026-10-27/symbolic-result.json",
+      "input_sha256": "211c5c3c2b129e9e23c714059bdde65ba7e4a805392ee991c4d489ba1c9287a8",
+      "exported_sha256": "211c5c3c2b129e9e23c714059bdde65ba7e4a805392ee991c4d489ba1c9287a8",
+      "exported_bytes": 864,
+      "byte_identical": true
+    },
+    {
+      "path": "quadrature_crosscheck.py",
+      "input_commit": "815aebd1c03f8cb108030bf7fb73751021237969",
+      "input_source": "studies/R036/paper-v1.1-2026-10-27/quadrature_crosscheck.py",
+      "input_sha256": "002c9603435ea84ce0d1e66f2fe428bc4e65cd71c8198cb4cfee3882fe10315c",
+      "exported_sha256": "002c9603435ea84ce0d1e66f2fe428bc4e65cd71c8198cb4cfee3882fe10315c",
+      "exported_bytes": 1686,
+      "byte_identical": true
+    },
+    {
+      "path": "quadrature-result.json",
+      "input_commit": "815aebd1c03f8cb108030bf7fb73751021237969",
+      "input_source": "studies/R036/paper-v1.1-2026-10-27/quadrature-result.json",
+      "input_sha256": "8388a9dff75dca8acb26543fe2a41f005a56b45f365fc635ab229147097c473f",
+      "exported_sha256": "8388a9dff75dca8acb26543fe2a41f005a56b45f365fc635ab229147097c473f",
+      "exported_bytes": 4956,
+      "byte_identical": true
+    },
+    {
+      "path": "constant_check.py",
+      "input_commit": "815aebd1c03f8cb108030bf7fb73751021237969",
+      "input_source": "studies/R036/paper-v1.1-2026-10-27/constant_check.py",
+      "input_sha256": "5c2a8e1f64f1e51e5ed9b106b1c030a35a898a60fba820352a50b0812fe460d2",
+      "exported_sha256": "5c2a8e1f64f1e51e5ed9b106b1c030a35a898a60fba820352a50b0812fe460d2",
+      "exported_bytes": 1837,
+      "byte_identical": true
+    },
+    {
+      "path": "constant-check.json",
+      "input_commit": "815aebd1c03f8cb108030bf7fb73751021237969",
+      "input_source": "studies/R036/paper-v1.1-2026-10-27/constant-check.json",
+      "input_sha256": "7dc5a4d179f2755725e62cf76178979337e9737c49620e8d69b224ef34016e33",
+      "exported_sha256": "7dc5a4d179f2755725e62cf76178979337e9737c49620e8d69b224ef34016e33",
+      "exported_bytes": 2211,
+      "byte_identical": true
+    },
+    {
+      "path": "MainStatement.lean",
+      "input_commit": "815aebd1c03f8cb108030bf7fb73751021237969",
+      "input_source": "studies/R036/paper-v1.1-2026-10-27/MainStatement.lean",
+      "input_sha256": "706875e54c20ef6e90ea62934c09ff5993d48c09b10f05ed6c5e60a3f43e29ae",
+      "exported_sha256": "706875e54c20ef6e90ea62934c09ff5993d48c09b10f05ed6c5e60a3f43e29ae",
+      "exported_bytes": 3878,
+      "byte_identical": true
+    },
+    {
+      "path": "lean-check.json",
+      "input_commit": "815aebd1c03f8cb108030bf7fb73751021237969",
+      "input_source": "studies/R036/paper-v1.1-2026-10-27/lean-check.json",
+      "input_sha256": "e7031d484c260c89312c847eb94fdb21c0ac1662c83220b434c34bed57726969",
+      "exported_sha256": "ea8340f317743f9ea839476ae372d1b8ed11cc90bd18566fd1377ed08a021064",
+      "exported_bytes": 751,
+      "byte_identical": false,
+      "transformation": "Remove machine-local runtime path; label prior result and weaker statement explicitly."
+    },
+    {
+      "path": "claims.json",
+      "input_commit": "815aebd1c03f8cb108030bf7fb73751021237969",
+      "input_source": "studies/R036/paper-v1.1-2026-10-27/claims.json",
+      "input_sha256": "a019dbe90707be24435a6b4d21e84439453886037751180ff2e716fb44c74011",
+      "exported_sha256": "e3661c3cef6bfad15b7952ccd3377f4b3a66458156fc37b4f1575af2ae7f748a",
+      "exported_bytes": 2518,
+      "byte_identical": false,
+      "transformation": "Update candidate version/status, statement strength and evidence links. Add exclusions for identifying the Eulerian slice integral with ADM mass and extending the bound beyond the specified profile and shift class."
+    },
+    {
+      "path": "cite-check.json",
+      "input_commit": "815aebd1c03f8cb108030bf7fb73751021237969",
+      "input_source": "studies/R036/paper-v1.1-2026-10-27/cite-check.json",
+      "input_sha256": "af862c4f9e0b10db262dce06243b410bcd4b29bda75fb7f4e22e352abcfe7d50",
+      "exported_sha256": "af862c4f9e0b10db262dce06243b410bcd4b29bda75fb7f4e22e352abcfe7d50",
+      "exported_bytes": 56298,
+      "byte_identical": true
+    },
+    {
+      "path": "publication-metadata.json",
+      "input_commit": "815aebd1c03f8cb108030bf7fb73751021237969",
+      "input_source": "studies/R036/paper-v1.1-2026-10-27/publication-metadata.json",
+      "input_sha256": "2833b1bfc302cb8c08681788f4d938e9fa1c0f653228b8bd178714a6e1c6c659",
+      "exported_sha256": "2833b1bfc302cb8c08681788f4d938e9fa1c0f653228b8bd178714a6e1c6c659",
+      "exported_bytes": 9567,
+      "byte_identical": true
+    },
+    {
+      "path": "Apache-2.0.txt",
+      "input_commit": "5849fdd83b801cd65659a88ad70805c4ec54bd76",
+      "input_source": "R029-public-reference/Apache-2.0.txt",
+      "input_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "exported_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "exported_bytes": 11358,
+      "byte_identical": true
+    },
+    {
+      "path": "CC-BY-4.0.txt",
+      "input_commit": "5849fdd83b801cd65659a88ad70805c4ec54bd76",
+      "input_source": "R029-public-reference/CC-BY-4.0.txt",
+      "input_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "exported_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "exported_bytes": 18657,
+      "byte_identical": true
+    }
+  ],
+  "generated_files_note": "Other distribution files are new documentation, checkers, configuration, or PDF outputs; MANIFEST.sha256 binds the full distribution.",
+  "versions": {
+    "python": "Python 3.14.7",
+    "tectonic": "Tectonic 0.17.0",
+    "symbolic_saved_result": "SymPy 1.14.0",
+    "quadrature_saved_result": "mpmath 1.3.0",
+    "lean_historical_result": "Lean 4.35.0 / mathlib v4.35.0; no new run"
+  },
+  "assurance": "Analytic proof; finite computational corroboration; weaker L1 statement only; no human peer review",
+  "operation_scope": "Local candidate only; no push, public release, external repository creation or DOI assignment"
+}

@@ -1,0 +1,102 @@
+{
+  "status": "passed",
+  "kind": "exact rational arithmetic after analytic envelope reduction",
+  "checks": {
+    "beta_squared_below_0.21_squared": {
+      "left": "1/24",
+      "right": "441/10000",
+      "strict": true,
+      "passed": true
+    },
+    "inner_strip_in_wall": {
+      "left": "1/96",
+      "right": "1/2",
+      "strict": true,
+      "passed": true
+    },
+    "junction_monotonicity": {
+      "left": "3/64",
+      "right": "3145727/6291456",
+      "strict": true,
+      "passed": true
+    },
+    "junction_positive_at_one": {
+      "left": "3/64",
+      "right": "1048575/2097152",
+      "strict": true,
+      "passed": true
+    },
+    "disjoint_junction_intervals": {
+      "left": "1048577/1048576",
+      "right": "3047423/2097152",
+      "strict": true,
+      "passed": true
+    },
+    "mass_remainder": {
+      "left": "6151/32",
+      "right": "200",
+      "strict": false,
+      "passed": true
+    },
+    "energy_remainder": {
+      "left": "279777/32",
+      "right": "9000",
+      "strict": false,
+      "passed": true
+    },
+    "normalization_taylor_coefficient": {
+      "left": "192/49",
+      "right": "4",
+      "strict": false,
+      "passed": true
+    },
+    "normalization_remainder": {
+      "left": "656",
+      "right": "700",
+      "strict": false,
+      "passed": true
+    },
+    "normalized_energy_remainder": {
+      "left": "55170338/3969",
+      "right": "14000",
+      "strict": true,
+      "passed": true
+    },
+    "smoothing_and_normalization": {
+      "left": "175616405/12544",
+      "right": "15000",
+      "strict": false,
+      "passed": true
+    },
+    "eta_remainder": {
+      "left": "542048/9",
+      "right": "61000",
+      "strict": false,
+      "passed": true
+    },
+    "sqrt128_above_11": {
+      "left": "121",
+      "right": "128",
+      "strict": true,
+      "passed": true
+    },
+    "4_over_sqrt3_below_7_over3": {
+      "left": "16/3",
+      "right": "49/9",
+      "strict": true,
+      "passed": true
+    },
+    "lower_remainder": {
+      "left": "3952/891",
+      "right": "5",
+      "strict": true,
+      "passed": true
+    }
+  },
+  "constants": {
+    "eta0": 128,
+    "Bminus": 5,
+    "Bplus": 61000,
+    "gamma_remainder": 15000
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "paper_version": "1.2",
+  "primary_claim": "Theorem 1: uniform first-order coefficient of the constrained radial energy infimum",
+  "model": "Stationary comoving Alcubierre metric, one-component shift, v=1/10",
+  "profiles": "All globally C2 monotone radial profiles equal to 1 on r<=1 and 0 on r>=R; zero first and second endpoint derivatives; no uniform higher-derivative bound",
+  "parameters": {
+    "R": "[3/2,3]",
+    "eta": ">=128",
+    "limit": "eta tends to infinity with wall width in [1/2,2]"
+  },
+  "observer": "Eulerian normal n=partial_t-v(1-f)partial_z",
+  "constraint": "Euclidean spectral norm of E/v^2 <= eta at every wall radius and angle; E is the electric part of the full Riemann tensor",
+  "energy_index": "J=integral_1^R r^2 f'(r)^2 dr",
+  "slice_energy": "-v^2 J/12 = -J/1200",
+  "coefficient": "1/[3 R (R-1)^3]",
+  "scaled_error_orders": {
+    "universal_lower_bound": "O(eta^-1/2)",
+    "admissible_upper_bound": "O(eta^-1)",
+    "uniform_in": "R in [3/2,3]"
+  },
+  "proof_status": "Analytic proof; no optimizer existence assumed",
+  "finite_evidence": "18 exact rational enclosures with outward decimal rounding; separate 120-digit quadrature corroboration",
+  "formalization": {
+    "level": "L1",
+    "statement_type_checked": true,
+    "theorem_formally_proved": false,
+    "metric_to_matrix_formalized": false,
+    "v1_unchanged_statement_reused": true,
+    "explicit_constants_in_lean_statement": false,
+    "statement_strength": "Weaker consequence of Theorem 1 with existential error constants",
+    "reexecuted_for_this_version": false
+  },
+  "human_peer_review": false,
+  "publication_status": "Local publication candidate; no public release or DOI assigned",
+  "not_claimed": [
+    "finite-eta optimizer existence or uniqueness",
+    "optimal remainder rate",
+    "other observers",
+    "bounds on all curvature components",
+    "matter realizability",
+    "quantum inequalities",
+    "stability",
+    "energy-condition satisfaction",
+    "global novelty priority",
+    "identifying the Eulerian slice-energy integral with ADM mass",
+    "the same energy bound for nonmonotone or nonradial profiles, multicomponent shifts, or general divergence-free shifts"
+  ],
+  "explicit_error_constants": {
+    "eta_0": 128,
+    "B_minus": 5,
+    "B_plus": 61000
+  },
+  "evidence": [
+    "paper.pdf",
+    "paper.tex",
+    "rational-intervals.json",
+    "constant-check.json",
+    "symbolic-result.json",
+    "quadrature-result.json",
+    "MainStatement.lean",
+    "lean-check.json"
+  ]
+}

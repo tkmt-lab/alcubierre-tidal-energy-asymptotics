@@ -1,0 +1,104 @@
+[
+  {
+    "key": "alcubierre",
+    "authors": "Miguel Alcubierre",
+    "year": 1994,
+    "title": "The warp drive: hyper-fast travel within general relativity",
+    "doi": "10.1088/0264-9381/11/5/001",
+    "venue": "Classical and Quantum Gravity 11, L73-L77"
+  },
+  {
+    "key": "pfenningford",
+    "authors": "Michael J. Pfenning and L. H. Ford",
+    "year": 1997,
+    "title": "The unphysical nature of warp drive",
+    "doi": "10.1088/0264-9381/14/7/011",
+    "venue": "Classical and Quantum Gravity 14, 1743-1751"
+  },
+  {
+    "key": "lobovisser",
+    "authors": "Francisco S. N. Lobo and Matt Visser",
+    "year": 2004,
+    "title": "Fundamental limitations on ‘warp drive’ spacetimes",
+    "doi": "10.1088/0264-9381/21/24/011",
+    "venue": "Classical and Quantum Gravity 21, 5871-5892"
+  },
+  {
+    "key": "bobrickmartire",
+    "authors": "Alexey Bobrick and Gianni Martire",
+    "year": 2021,
+    "title": "Introducing physical warp drives",
+    "doi": "10.1088/1361-6382/abdf6e",
+    "venue": "Classical and Quantum Gravity 38, 105009",
+    "arxiv": "2102.06824v2",
+    "arxiv_first_year": 2021
+  },
+  {
+    "key": "natario",
+    "authors": "José Natário",
+    "year": 2002,
+    "title": "Warp drive with zero expansion",
+    "doi": "10.1088/0264-9381/19/6/308",
+    "venue": "Classical and Quantum Gravity 19, 1157-1166"
+  },
+  {
+    "key": "bolivar",
+    "authors": "Nelson Bolívar, Ivaylo Vasilev and Gabriel Abellán",
+    "year": 2026,
+    "title": "Zero expansion is not free: the sharp minimum of Eulerian negative energy in Natário warp drives",
+    "arxiv": "2609.36211v1",
+    "venue": "Preprint"
+  },
+  {
+    "key": "lentz",
+    "authors": "Erik W. Lentz",
+    "year": 2021,
+    "title": "Breaking the warp barrier: hyper-fast solitons in Einstein–Maxwell-plasma theory",
+    "arxiv": "2006.07125v2",
+    "venue": "Classical and Quantum Gravity 38, 075015",
+    "doi": "10.1088/1361-6382/abe692",
+    "arxiv_first_year": 2020
+  },
+  {
+    "key": "fellheisenberg",
+    "authors": "Shaun D. B. Fell and Lavinia Heisenberg",
+    "year": 2021,
+    "title": "Positive energy warp drive from hidden geometric structures",
+    "doi": "10.1088/1361-6382/ac0e47",
+    "venue": "Classical and Quantum Gravity 38, 155020"
+  },
+  {
+    "key": "santiago",
+    "authors": "Jessica Santiago, Sebastian Schuster and Matt Visser",
+    "year": 2022,
+    "title": "Generic warp drives violate the null energy condition",
+    "doi": "10.1103/PhysRevD.105.064038",
+    "venue": "Physical Review D 105, 064038",
+    "arxiv": "2105.03079v2",
+    "arxiv_first_year": 2021
+  },
+  {
+    "key": "warpfactory",
+    "authors": "Christopher Helmerich, Jared Fuchs, Alexey Bobrick, Luke Sellers, Brandon Melcher and Gianni Martire",
+    "year": 2024,
+    "title": "Analyzing warp drive spacetimes with Warp Factory",
+    "doi": "10.1088/1361-6382/ad2e42",
+    "venue": "Classical and Quantum Gravity 41, 095009"
+  },
+  {
+    "key": "warpax",
+    "authors": "An T. Le",
+    "year": 2026,
+    "title": "Observer-robust energy condition verification for warp drive spacetimes",
+    "arxiv": "2602.18023v6",
+    "venue": "Preprint"
+  },
+  {
+    "key": "braides",
+    "authors": "Andrea Braides and Lev Truskinovsky",
+    "year": 2008,
+    "title": "Asymptotic expansions by Γ-convergence",
+    "doi": "10.1007/s00161-008-0072-2",
+    "venue": "Continuum Mechanics and Thermodynamics 20, 21-62"
+  }
+]

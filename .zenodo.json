@@ -1,0 +1,21 @@
+{
+  "title": "Sharp first-order energy correction under an Eulerian tidal bound for finite-wall Alcubierre profiles",
+  "version": "1.2",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Analytic proof and reproducible finite checks for the uniform first correction to the specified radial energy infimum under an all-angle Eulerian electric-Riemann norm bound. Lean L1 is a weaker statement with existential constants, not a formal proof. No human peer review. Code Apache-2.0; original text and numerical data CC BY 4.0.",
+  "creators": [
+    {
+      "name": "Takimoto, Tatsuhiko",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "Alcubierre metric",
+    "Eulerian energy",
+    "tidal constraint",
+    "variational asymptotics",
+    "exact rational arithmetic"
+  ]
+}

@@ -1,0 +1,1543 @@
+{
+  "tool": "cite_check",
+  "version": "1.0",
+  "checked_at": "2026-10-26T16:31:14.749833+00:00",
+  "title_threshold": 0.88,
+  "summary": {
+    "一致": 15,
+    "不一致": 0,
+    "解決できない": 0
+  },
+  "citations": [
+    {
+      "line": 5,
+      "text": "- Title: The warp drive: hyper-fast travel within general relativity; Authors: Miguel Alcubierre; Year: 1994; doi: https://doi.org/10.1088/0264-9381/11/5/001",
+      "claims": {
+        "title": "The warp drive: hyper-fast travel within general relativity",
+        "title_candidates": [
+          "The warp drive: hyper-fast travel within general relativity"
+        ],
+        "authors": "Miguel Alcubierre",
+        "year": 1994,
+        "format": "labelled"
+      },
+      "identifiers": [
+        {
+          "identifier": {
+            "kind": "doi",
+            "value": "10.1088/0264-9381/11/5/001",
+            "url": "https://doi.org/10.1088/0264-9381/11/5/001",
+            "start": 131,
+            "end": 157
+          },
+          "resolution": {
+            "exists": true,
+            "resolved": true,
+            "metadata": {
+              "title": "The warp drive: hyper-fast travel within general relativity",
+              "authors": [
+                {
+                  "given": "Miguel",
+                  "family": "Alcubierre",
+                  "literal": ""
+                }
+              ],
+              "years": {
+                "published": 1994,
+                "published-print": 1994,
+                "published-online": 1999,
+                "issued": 1994
+              },
+              "doi": "10.1088/0264-9381/11/5/001",
+              "source": "crossref"
+            },
+            "attempts": [
+              {
+                "url": "https://api.crossref.org/works/10.1088%2F0264-9381%2F11%2F5%2F001",
+                "accept": "application/json",
+                "fetched_at": "2026-10-26T16:30:56.934043+00:00",
+                "status": 200,
+                "final_url": "https://api.crossref.org/works/10.1088%2F0264-9381%2F11%2F5%2F001",
+                "content_type": "application/json",
+                "body_sha256": "12046fffa42f04d211b73dd5d9b0abfb1a1c2d4c45d71bd8c06edcccc2a5bf3f"
+              }
+            ]
+          },
+          "comparisons": {
+            "title": {
+              "status": "match",
+              "similarity": 1.0,
+              "threshold": 0.88,
+              "claimed": "The warp drive: hyper-fast travel within general relativity",
+              "numbers_match": true,
+              "heuristic": true
+            },
+            "authors": {
+              "status": "match",
+              "unmatched": [],
+              "uncertain": [],
+              "et_al": false,
+              "scope": "listed surnames, first initial, and full first-given-name heuristic; middle names not fully compared"
+            },
+            "year": {
+              "status": "match",
+              "claimed": 1994,
+              "actual": {
+                "published": 1994,
+                "published-print": 1994,
+                "published-online": 1999,
+                "issued": 1994
+              }
+            }
+          },
+          "verdict": "一致",
+          "reasons": []
+        }
+      ],
+      "verdict": "一致",
+      "checked_scope": "bibliographic metadata only; missing claims are not checked; no abstract/scientific validity check"
+    },
+    {
+      "line": 7,
+      "text": "- Title: The unphysical nature of warp drive; Authors: Michael J. Pfenning and L. H. Ford; Year: 1997; doi: https://doi.org/10.1088/0264-9381/14/7/011",
+      "claims": {
+        "title": "The unphysical nature of warp drive",
+        "title_candidates": [
+          "The unphysical nature of warp drive"
+        ],
+        "authors": "Michael J. Pfenning and L. H. Ford",
+        "year": 1997,
+        "format": "labelled"
+      },
+      "identifiers": [
+        {
+          "identifier": {
+            "kind": "doi",
+            "value": "10.1088/0264-9381/14/7/011",
+            "url": "https://doi.org/10.1088/0264-9381/14/7/011",
+            "start": 124,
+            "end": 150
+          },
+          "resolution": {
+            "exists": true,
+            "resolved": true,
+            "metadata": {
+              "title": "The unphysical nature of `warp drive'",
+              "authors": [
+                {
+                  "given": "M J",
+                  "family": "Pfenning",
+                  "literal": ""
+                },
+                {
+                  "given": "L H",
+                  "family": "Ford",
+                  "literal": ""
+                }
+              ],
+              "years": {
+                "published": 1997,
+                "published-print": 1997,
+                "published-online": 1999,
+                "issued": 1997
+              },
+              "doi": "10.1088/0264-9381/14/7/011",
+              "source": "crossref"
+            },
+            "attempts": [
+              {
+                "url": "https://api.crossref.org/works/10.1088%2F0264-9381%2F14%2F7%2F011",
+                "accept": "application/json",
+                "fetched_at": "2026-10-26T16:30:57.939493+00:00",
+                "status": 200,
+                "final_url": "https://api.crossref.org/works/10.1088%2F0264-9381%2F14%2F7%2F011",
+                "content_type": "application/json",
+                "body_sha256": "7b966c2d9a79973df0088df2ff10d2d96ad0acce6df0dd5ba73980b130e9dd77"
+              }
+            ]
+          },
+          "comparisons": {
+            "title": {
+              "status": "match",
+              "similarity": 1.0,
+              "threshold": 0.88,
+              "claimed": "The unphysical nature of warp drive",
+              "numbers_match": true,
+              "heuristic": true
+            },
+            "authors": {
+              "status": "match",
+              "unmatched": [],
+              "uncertain": [],
+              "et_al": false,
+              "scope": "listed surnames, first initial, and full first-given-name heuristic; middle names not fully compared"
+            },
+            "year": {
+              "status": "match",
+              "claimed": 1997,
+              "actual": {
+                "published": 1997,
+                "published-print": 1997,
+                "published-online": 1999,
+                "issued": 1997
+              }
+            }
+          },
+          "verdict": "一致",
+          "reasons": []
+        }
+      ],
+      "verdict": "一致",
+      "checked_scope": "bibliographic metadata only; missing claims are not checked; no abstract/scientific validity check"
+    },
+    {
+      "line": 9,
+      "text": "- Title: Fundamental limitations on ‘warp drive’ spacetimes; Authors: Francisco S. N. Lobo and Matt Visser; Year: 2004; doi: https://doi.org/10.1088/0264-9381/21/24/011",
+      "claims": {
+        "title": "Fundamental limitations on ‘warp drive’ spacetimes",
+        "title_candidates": [
+          "Fundamental limitations on ‘warp drive’ spacetimes"
+        ],
+        "authors": "Francisco S. N. Lobo and Matt Visser",
+        "year": 2004,
+        "format": "labelled"
+      },
+      "identifiers": [
+        {
+          "identifier": {
+            "kind": "doi",
+            "value": "10.1088/0264-9381/21/24/011",
+            "url": "https://doi.org/10.1088/0264-9381/21/24/011",
+            "start": 141,
+            "end": 168
+          },
+          "resolution": {
+            "exists": true,
+            "resolved": true,
+            "metadata": {
+              "title": "Fundamental limitations on ‘warp drive’ spacetimes",
+              "authors": [
+                {
+                  "given": "Francisco S N",
+                  "family": "Lobo",
+                  "literal": ""
+                },
+                {
+                  "given": "Matt",
+                  "family": "Visser",
+                  "literal": ""
+                }
+              ],
+              "years": {
+                "published": 2004,
+                "published-print": 2004,
+                "published-online": 2004,
+                "issued": 2004
+              },
+              "doi": "10.1088/0264-9381/21/24/011",
+              "source": "crossref"
+            },
+            "attempts": [
+              {
+                "url": "https://api.crossref.org/works/10.1088%2F0264-9381%2F21%2F24%2F011",
+                "accept": "application/json",
+                "fetched_at": "2026-10-26T16:30:58.947502+00:00",
+                "status": 200,
+                "final_url": "https://api.crossref.org/works/10.1088%2F0264-9381%2F21%2F24%2F011",
+                "content_type": "application/json",
+                "body_sha256": "06b342de399630393c0e31610e6ed1be07b922a022927b9a99e78e3b476e29dc"
+              }
+            ]
+          },
+          "comparisons": {
+            "title": {
+              "status": "match",
+              "similarity": 1.0,
+              "threshold": 0.88,
+              "claimed": "Fundamental limitations on ‘warp drive’ spacetimes",
+              "numbers_match": true,
+              "heuristic": true
+            },
+            "authors": {
+              "status": "match",
+              "unmatched": [],
+              "uncertain": [],
+              "et_al": false,
+              "scope": "listed surnames, first initial, and full first-given-name heuristic; middle names not fully compared"
+            },
+            "year": {
+              "status": "match",
+              "claimed": 2004,
+              "actual": {
+                "published": 2004,
+                "published-print": 2004,
+                "published-online": 2004,
+                "issued": 2004
+              }
+            }
+          },
+          "verdict": "一致",
+          "reasons": []
+        }
+      ],
+      "verdict": "一致",
+      "checked_scope": "bibliographic metadata only; missing claims are not checked; no abstract/scientific validity check"
+    },
+    {
+      "line": 11,
+      "text": "- Title: Introducing physical warp drives; Authors: Alexey Bobrick and Gianni Martire; Year: 2021; doi: https://doi.org/10.1088/1361-6382/abdf6e",
+      "claims": {
+        "title": "Introducing physical warp drives",
+        "title_candidates": [
+          "Introducing physical warp drives"
+        ],
+        "authors": "Alexey Bobrick and Gianni Martire",
+        "year": 2021,
+        "format": "labelled"
+      },
+      "identifiers": [
+        {
+          "identifier": {
+            "kind": "doi",
+            "value": "10.1088/1361-6382/abdf6e",
+            "url": "https://doi.org/10.1088/1361-6382/abdf6e",
+            "start": 120,
+            "end": 144
+          },
+          "resolution": {
+            "exists": true,
+            "resolved": true,
+            "metadata": {
+              "title": "Introducing physical warp drives",
+              "authors": [
+                {
+                  "given": "Alexey",
+                  "family": "Bobrick",
+                  "literal": ""
+                },
+                {
+                  "given": "Gianni",
+                  "family": "Martire",
+                  "literal": ""
+                }
+              ],
+              "years": {
+                "published": 2021,
+                "published-print": 2021,
+                "published-online": 2021,
+                "issued": 2021
+              },
+              "doi": "10.1088/1361-6382/abdf6e",
+              "source": "crossref"
+            },
+            "attempts": [
+              {
+                "url": "https://api.crossref.org/works/10.1088%2F1361-6382%2Fabdf6e",
+                "accept": "application/json",
+                "fetched_at": "2026-10-26T16:30:59.956751+00:00",
+                "status": 200,
+                "final_url": "https://api.crossref.org/works/10.1088%2F1361-6382%2Fabdf6e",
+                "content_type": "application/json",
+                "body_sha256": "2de2f07590c256931f1e7aac1108a9b4dca19b01c1a93b3efede8c5e3ff92932"
+              }
+            ]
+          },
+          "comparisons": {
+            "title": {
+              "status": "match",
+              "similarity": 1.0,
+              "threshold": 0.88,
+              "claimed": "Introducing physical warp drives",
+              "numbers_match": true,
+              "heuristic": true
+            },
+            "authors": {
+              "status": "match",
+              "unmatched": [],
+              "uncertain": [],
+              "et_al": false,
+              "scope": "listed surnames, first initial, and full first-given-name heuristic; middle names not fully compared"
+            },
+            "year": {
+              "status": "match",
+              "claimed": 2021,
+              "actual": {
+                "published": 2021,
+                "published-print": 2021,
+                "published-online": 2021,
+                "issued": 2021
+              }
+            }
+          },
+          "verdict": "一致",
+          "reasons": []
+        }
+      ],
+      "verdict": "一致",
+      "checked_scope": "bibliographic metadata only; missing claims are not checked; no abstract/scientific validity check"
+    },
+    {
+      "line": 13,
+      "text": "- Title: Introducing physical warp drives; Authors: Alexey Bobrick and Gianni Martire; Year: 2021; arXiv: https://arxiv.org/abs/2102.06824v2",
+      "claims": {
+        "title": "Introducing physical warp drives",
+        "title_candidates": [
+          "Introducing physical warp drives"
+        ],
+        "authors": "Alexey Bobrick and Gianni Martire",
+        "year": 2021,
+        "format": "labelled"
+      },
+      "identifiers": [
+        {
+          "identifier": {
+            "kind": "arxiv",
+            "value": "2102.06824v2",
+            "url": "https://arxiv.org/abs/2102.06824v2",
+            "start": 114,
+            "end": 140
+          },
+          "resolution": {
+            "exists": true,
+            "resolved": true,
+            "metadata": {
+              "title": "Introducing Physical Warp Drives",
+              "authors": [
+                {
+                  "given": "Alexey",
+                  "family": "Bobrick",
+                  "literal": "Alexey Bobrick"
+                },
+                {
+                  "given": "Gianni",
+                  "family": "Martire",
+                  "literal": "Gianni Martire"
+                }
+              ],
+              "years": {
+                "preprint": 2021
+              },
+              "doi": "10.1088/1361-6382/abdf6e",
+              "arxiv": "2102.06824v2",
+              "source": "arxiv",
+              "journal_ref": ""
+            },
+            "attempts": [
+              {
+                "url": "https://export.arxiv.org/api/query?id_list=2102.06824v2",
+                "accept": "application/atom+xml",
+                "fetched_at": "2026-10-26T16:31:00.966762+00:00",
+                "status": 200,
+                "final_url": "https://export.arxiv.org/api/query?id_list=2102.06824v2",
+                "content_type": "application/atom+xml; charset=utf-8",
+                "body_sha256": "3c5d088257ca9e127b4392ba576f2296ffe472b9df258be924a59c2def5eb45b"
+              }
+            ]
+          },
+          "comparisons": {
+            "title": {
+              "status": "match",
+              "similarity": 1.0,
+              "threshold": 0.88,
+              "claimed": "Introducing physical warp drives",
+              "numbers_match": true,
+              "heuristic": true
+            },
+            "authors": {
+              "status": "match",
+              "unmatched": [],
+              "uncertain": [],
+              "et_al": false,
+              "scope": "listed surnames, first initial, and full first-given-name heuristic; middle names not fully compared"
+            },
+            "year": {
+              "status": "match",
+              "claimed": 2021,
+              "actual": {
+                "preprint": 2021
+              }
+            }
+          },
+          "verdict": "一致",
+          "reasons": []
+        }
+      ],
+      "verdict": "一致",
+      "checked_scope": "bibliographic metadata only; missing claims are not checked; no abstract/scientific validity check"
+    },
+    {
+      "line": 15,
+      "text": "- Title: Warp drive with zero expansion; Authors: José Natário; Year: 2002; doi: https://doi.org/10.1088/0264-9381/19/6/308",
+      "claims": {
+        "title": "Warp drive with zero expansion",
+        "title_candidates": [
+          "Warp drive with zero expansion"
+        ],
+        "authors": "José Natário",
+        "year": 2002,
+        "format": "labelled"
+      },
+      "identifiers": [
+        {
+          "identifier": {
+            "kind": "doi",
+            "value": "10.1088/0264-9381/19/6/308",
+            "url": "https://doi.org/10.1088/0264-9381/19/6/308",
+            "start": 97,
+            "end": 123
+          },
+          "resolution": {
+            "exists": true,
+            "resolved": true,
+            "metadata": {
+              "title": "Warp drive with zero expansion",
+              "authors": [
+                {
+                  "given": "José",
+                  "family": "Natário",
+                  "literal": ""
+                }
+              ],
+              "years": {
+                "published": 2002,
+                "published-print": 2002,
+                "published-online": 2002,
+                "issued": 2002
+              },
+              "doi": "10.1088/0264-9381/19/6/308",
+              "source": "crossref"
+            },
+            "attempts": [
+              {
+                "url": "https://api.crossref.org/works/10.1088%2F0264-9381%2F19%2F6%2F308",
+                "accept": "application/json",
+                "fetched_at": "2026-10-26T16:31:01.969436+00:00",
+                "status": 200,
+                "final_url": "https://api.crossref.org/works/10.1088%2F0264-9381%2F19%2F6%2F308",
+                "content_type": "application/json",
+                "body_sha256": "cd072a082abe119d740276a30075d68076a4307d1b0ece6f2db78675f6628761"
+              }
+            ]
+          },
+          "comparisons": {
+            "title": {
+              "status": "match",
+              "similarity": 1.0,
+              "threshold": 0.88,
+              "claimed": "Warp drive with zero expansion",
+              "numbers_match": true,
+              "heuristic": true
+            },
+            "authors": {
+              "status": "match",
+              "unmatched": [],
+              "uncertain": [],
+              "et_al": false,
+              "scope": "listed surnames, first initial, and full first-given-name heuristic; middle names not fully compared"
+            },
+            "year": {
+              "status": "match",
+              "claimed": 2002,
+              "actual": {
+                "published": 2002,
+                "published-print": 2002,
+                "published-online": 2002,
+                "issued": 2002
+              }
+            }
+          },
+          "verdict": "一致",
+          "reasons": []
+        }
+      ],
+      "verdict": "一致",
+      "checked_scope": "bibliographic metadata only; missing claims are not checked; no abstract/scientific validity check"
+    },
+    {
+      "line": 17,
+      "text": "- Title: Zero expansion is not free: the sharp minimum of Eulerian negative energy in Natário warp drives; Authors: Nelson Bolívar, Ivaylo Vasilev and Gabriel Abellán; Year: 2026; arXiv: https://arxiv.org/abs/2609.36211v1",
+      "claims": {
+        "title": "Zero expansion is not free: the sharp minimum of Eulerian negative energy in Natário warp drives",
+        "title_candidates": [
+          "Zero expansion is not free: the sharp minimum of Eulerian negative energy in Natário warp drives"
+        ],
+        "authors": "Nelson Bolívar, Ivaylo Vasilev and Gabriel Abellán",
+        "year": 2026,
+        "format": "labelled"
+      },
+      "identifiers": [
+        {
+          "identifier": {
+            "kind": "arxiv",
+            "value": "2609.36211v1",
+            "url": "https://arxiv.org/abs/2609.36211v1",
+            "start": 195,
+            "end": 221
+          },
+          "resolution": {
+            "exists": true,
+            "resolved": true,
+            "metadata": {
+              "title": "Zero expansion is not free: the sharp minimum of Eulerian negative energy in Natário warp drives",
+              "authors": [
+                {
+                  "given": "Nelson",
+                  "family": "Bolívar",
+                  "literal": "Nelson Bolívar"
+                },
+                {
+                  "given": "Ivaylo",
+                  "family": "Vasilev",
+                  "literal": "Ivaylo Vasilev"
+                },
+                {
+                  "given": "Gabriel",
+                  "family": "Abellán",
+                  "literal": "Gabriel Abellán"
+                }
+              ],
+              "years": {
+                "preprint": 2026
+              },
+              "doi": null,
+              "arxiv": "2609.36211v1",
+              "source": "arxiv",
+              "journal_ref": ""
+            },
+            "attempts": [
+              {
+                "url": "https://export.arxiv.org/api/query?id_list=2609.36211v1",
+                "accept": "application/atom+xml",
+                "fetched_at": "2026-10-26T16:31:03.971433+00:00",
+                "status": 200,
+                "final_url": "https://export.arxiv.org/api/query?id_list=2609.36211v1",
+                "content_type": "application/atom+xml; charset=utf-8",
+                "body_sha256": "7523df4acc0937e3df768befc12f9a6b41adc08ca83decc656f0ac8daa61f697"
+              }
+            ]
+          },
+          "comparisons": {
+            "title": {
+              "status": "match",
+              "similarity": 1.0,
+              "threshold": 0.88,
+              "claimed": "Zero expansion is not free: the sharp minimum of Eulerian negative energy in Natário warp drives",
+              "numbers_match": true,
+              "heuristic": true
+            },
+            "authors": {
+              "status": "match",
+              "unmatched": [],
+              "uncertain": [],
+              "et_al": false,
+              "scope": "listed surnames, first initial, and full first-given-name heuristic; middle names not fully compared"
+            },
+            "year": {
+              "status": "match",
+              "claimed": 2026,
+              "actual": {
+                "preprint": 2026
+              }
+            }
+          },
+          "verdict": "一致",
+          "reasons": []
+        }
+      ],
+      "verdict": "一致",
+      "checked_scope": "bibliographic metadata only; missing claims are not checked; no abstract/scientific validity check"
+    },
+    {
+      "line": 19,
+      "text": "- Title: Breaking the warp barrier: hyper-fast solitons in Einstein–Maxwell-plasma theory; Authors: Erik W. Lentz; Year: 2021; doi: https://doi.org/10.1088/1361-6382/abe692",
+      "claims": {
+        "title": "Breaking the warp barrier: hyper-fast solitons in Einstein–Maxwell-plasma theory",
+        "title_candidates": [
+          "Breaking the warp barrier: hyper-fast solitons in Einstein–Maxwell-plasma theory"
+        ],
+        "authors": "Erik W. Lentz",
+        "year": 2021,
+        "format": "labelled"
+      },
+      "identifiers": [
+        {
+          "identifier": {
+            "kind": "doi",
+            "value": "10.1088/1361-6382/abe692",
+            "url": "https://doi.org/10.1088/1361-6382/abe692",
+            "start": 148,
+            "end": 172
+          },
+          "resolution": {
+            "exists": true,
+            "resolved": true,
+            "metadata": {
+              "title": "Breaking the warp barrier: hyper-fast solitons in Einstein–Maxwell-plasma theory",
+              "authors": [
+                {
+                  "given": "Erik W",
+                  "family": "Lentz",
+                  "literal": ""
+                }
+              ],
+              "years": {
+                "published": 2021,
+                "published-print": 2021,
+                "published-online": 2021,
+                "issued": 2021
+              },
+              "doi": "10.1088/1361-6382/abe692",
+              "source": "crossref"
+            },
+            "attempts": [
+              {
+                "url": "https://api.crossref.org/works/10.1088%2F1361-6382%2Fabe692",
+                "accept": "application/json",
+                "fetched_at": "2026-10-26T16:31:04.981436+00:00",
+                "status": 200,
+                "final_url": "https://api.crossref.org/works/10.1088%2F1361-6382%2Fabe692",
+                "content_type": "application/json",
+                "body_sha256": "8c1b703e3c549cd45406ad2aada8fbe70d9b9e10e76b55476b24c75fae11b6b9"
+              }
+            ]
+          },
+          "comparisons": {
+            "title": {
+              "status": "match",
+              "similarity": 1.0,
+              "threshold": 0.88,
+              "claimed": "Breaking the warp barrier: hyper-fast solitons in Einstein–Maxwell-plasma theory",
+              "numbers_match": true,
+              "heuristic": true
+            },
+            "authors": {
+              "status": "match",
+              "unmatched": [],
+              "uncertain": [],
+              "et_al": false,
+              "scope": "listed surnames, first initial, and full first-given-name heuristic; middle names not fully compared"
+            },
+            "year": {
+              "status": "match",
+              "claimed": 2021,
+              "actual": {
+                "published": 2021,
+                "published-print": 2021,
+                "published-online": 2021,
+                "issued": 2021
+              }
+            }
+          },
+          "verdict": "一致",
+          "reasons": []
+        }
+      ],
+      "verdict": "一致",
+      "checked_scope": "bibliographic metadata only; missing claims are not checked; no abstract/scientific validity check"
+    },
+    {
+      "line": 21,
+      "text": "- Title: Breaking the warp barrier: hyper-fast solitons in Einstein–Maxwell-plasma theory; Authors: Erik W. Lentz; Year: 2020; arXiv: https://arxiv.org/abs/2006.07125v2",
+      "claims": {
+        "title": "Breaking the warp barrier: hyper-fast solitons in Einstein–Maxwell-plasma theory",
+        "title_candidates": [
+          "Breaking the warp barrier: hyper-fast solitons in Einstein–Maxwell-plasma theory"
+        ],
+        "authors": "Erik W. Lentz",
+        "year": 2020,
+        "format": "labelled"
+      },
+      "identifiers": [
+        {
+          "identifier": {
+            "kind": "arxiv",
+            "value": "2006.07125v2",
+            "url": "https://arxiv.org/abs/2006.07125v2",
+            "start": 142,
+            "end": 168
+          },
+          "resolution": {
+            "exists": true,
+            "resolved": true,
+            "metadata": {
+              "title": "Breaking the Warp Barrier: Hyper-Fast Solitons in Einstein-Maxwell-Plasma Theory",
+              "authors": [
+                {
+                  "given": "Erik W.",
+                  "family": "Lentz",
+                  "literal": "Erik W. Lentz"
+                }
+              ],
+              "years": {
+                "preprint": 2020
+              },
+              "doi": null,
+              "arxiv": "2006.07125v2",
+              "source": "arxiv",
+              "journal_ref": ""
+            },
+            "attempts": [
+              {
+                "url": "https://export.arxiv.org/api/query?id_list=2006.07125v2",
+                "accept": "application/atom+xml",
+                "fetched_at": "2026-10-26T16:31:06.981433+00:00",
+                "status": 200,
+                "final_url": "https://export.arxiv.org/api/query?id_list=2006.07125v2",
+                "content_type": "application/atom+xml; charset=utf-8",
+                "body_sha256": "ee8067600a2c5fea3e7b79649405aa41e5800f39cf7531790b2e5166f57cbd97"
+              }
+            ]
+          },
+          "comparisons": {
+            "title": {
+              "status": "match",
+              "similarity": 1.0,
+              "threshold": 0.88,
+              "claimed": "Breaking the warp barrier: hyper-fast solitons in Einstein–Maxwell-plasma theory",
+              "numbers_match": true,
+              "heuristic": true
+            },
+            "authors": {
+              "status": "match",
+              "unmatched": [],
+              "uncertain": [],
+              "et_al": false,
+              "scope": "listed surnames, first initial, and full first-given-name heuristic; middle names not fully compared"
+            },
+            "year": {
+              "status": "match",
+              "claimed": 2020,
+              "actual": {
+                "preprint": 2020
+              }
+            }
+          },
+          "verdict": "一致",
+          "reasons": []
+        }
+      ],
+      "verdict": "一致",
+      "checked_scope": "bibliographic metadata only; missing claims are not checked; no abstract/scientific validity check"
+    },
+    {
+      "line": 23,
+      "text": "- Title: Positive energy warp drive from hidden geometric structures; Authors: Shaun D. B. Fell and Lavinia Heisenberg; Year: 2021; doi: https://doi.org/10.1088/1361-6382/ac0e47",
+      "claims": {
+        "title": "Positive energy warp drive from hidden geometric structures",
+        "title_candidates": [
+          "Positive energy warp drive from hidden geometric structures"
+        ],
+        "authors": "Shaun D. B. Fell and Lavinia Heisenberg",
+        "year": 2021,
+        "format": "labelled"
+      },
+      "identifiers": [
+        {
+          "identifier": {
+            "kind": "doi",
+            "value": "10.1088/1361-6382/ac0e47",
+            "url": "https://doi.org/10.1088/1361-6382/ac0e47",
+            "start": 153,
+            "end": 177
+          },
+          "resolution": {
+            "exists": true,
+            "resolved": true,
+            "metadata": {
+              "title": "Positive energy warp drive from hidden geometric structures",
+              "authors": [
+                {
+                  "given": "Shaun D B",
+                  "family": "Fell",
+                  "literal": ""
+                },
+                {
+                  "given": "Lavinia",
+                  "family": "Heisenberg",
+                  "literal": ""
+                }
+              ],
+              "years": {
+                "published": 2021,
+                "published-print": 2021,
+                "published-online": 2021,
+                "issued": 2021
+              },
+              "doi": "10.1088/1361-6382/ac0e47",
+              "source": "crossref"
+            },
+            "attempts": [
+              {
+                "url": "https://api.crossref.org/works/10.1088%2F1361-6382%2Fac0e47",
+                "accept": "application/json",
+                "fetched_at": "2026-10-26T16:31:07.991119+00:00",
+                "status": 200,
+                "final_url": "https://api.crossref.org/works/10.1088%2F1361-6382%2Fac0e47",
+                "content_type": "application/json",
+                "body_sha256": "27b7092107b285c714708080d774037763ac3b53e667911961c3bae9816ac073"
+              }
+            ]
+          },
+          "comparisons": {
+            "title": {
+              "status": "match",
+              "similarity": 1.0,
+              "threshold": 0.88,
+              "claimed": "Positive energy warp drive from hidden geometric structures",
+              "numbers_match": true,
+              "heuristic": true
+            },
+            "authors": {
+              "status": "match",
+              "unmatched": [],
+              "uncertain": [],
+              "et_al": false,
+              "scope": "listed surnames, first initial, and full first-given-name heuristic; middle names not fully compared"
+            },
+            "year": {
+              "status": "match",
+              "claimed": 2021,
+              "actual": {
+                "published": 2021,
+                "published-print": 2021,
+                "published-online": 2021,
+                "issued": 2021
+              }
+            }
+          },
+          "verdict": "一致",
+          "reasons": []
+        }
+      ],
+      "verdict": "一致",
+      "checked_scope": "bibliographic metadata only; missing claims are not checked; no abstract/scientific validity check"
+    },
+    {
+      "line": 25,
+      "text": "- Title: Generic warp drives violate the null energy condition; Authors: Jessica Santiago, Sebastian Schuster and Matt Visser; Year: 2022; doi: https://doi.org/10.1103/PhysRevD.105.064038",
+      "claims": {
+        "title": "Generic warp drives violate the null energy condition",
+        "title_candidates": [
+          "Generic warp drives violate the null energy condition"
+        ],
+        "authors": "Jessica Santiago, Sebastian Schuster and Matt Visser",
+        "year": 2022,
+        "format": "labelled"
+      },
+      "identifiers": [
+        {
+          "identifier": {
+            "kind": "doi",
+            "value": "10.1103/PhysRevD.105.064038",
+            "url": "https://doi.org/10.1103/PhysRevD.105.064038",
+            "start": 160,
+            "end": 187
+          },
+          "resolution": {
+            "exists": true,
+            "resolved": true,
+            "metadata": {
+              "title": "Generic warp drives violate the null energy condition",
+              "authors": [
+                {
+                  "given": "Jessica",
+                  "family": "Santiago",
+                  "literal": ""
+                },
+                {
+                  "given": "Sebastian",
+                  "family": "Schuster",
+                  "literal": ""
+                },
+                {
+                  "given": "Matt",
+                  "family": "Visser",
+                  "literal": ""
+                }
+              ],
+              "years": {
+                "published": 2022,
+                "published-online": 2022,
+                "issued": 2022
+              },
+              "doi": "10.1103/physrevd.105.064038",
+              "source": "crossref"
+            },
+            "attempts": [
+              {
+                "url": "https://api.crossref.org/works/10.1103%2FPhysRevD.105.064038",
+                "accept": "application/json",
+                "fetched_at": "2026-10-26T16:31:09.001141+00:00",
+                "status": 200,
+                "final_url": "https://api.crossref.org/works/10.1103%2FPhysRevD.105.064038",
+                "content_type": "application/json",
+                "body_sha256": "4755051400f6e982e54dc9717f6ab0c8d09418eb81249c963e013c7033dd0319"
+              }
+            ]
+          },
+          "comparisons": {
+            "title": {
+              "status": "match",
+              "similarity": 1.0,
+              "threshold": 0.88,
+              "claimed": "Generic warp drives violate the null energy condition",
+              "numbers_match": true,
+              "heuristic": true
+            },
+            "authors": {
+              "status": "match",
+              "unmatched": [],
+              "uncertain": [],
+              "et_al": false,
+              "scope": "listed surnames, first initial, and full first-given-name heuristic; middle names not fully compared"
+            },
+            "year": {
+              "status": "match",
+              "claimed": 2022,
+              "actual": {
+                "published": 2022,
+                "published-online": 2022,
+                "issued": 2022
+              }
+            }
+          },
+          "verdict": "一致",
+          "reasons": []
+        }
+      ],
+      "verdict": "一致",
+      "checked_scope": "bibliographic metadata only; missing claims are not checked; no abstract/scientific validity check"
+    },
+    {
+      "line": 27,
+      "text": "- Title: Generic warp drives violate the null energy condition; Authors: Jessica Santiago, Sebastian Schuster and Matt Visser; Year: 2021; arXiv: https://arxiv.org/abs/2105.03079v2",
+      "claims": {
+        "title": "Generic warp drives violate the null energy condition",
+        "title_candidates": [
+          "Generic warp drives violate the null energy condition"
+        ],
+        "authors": "Jessica Santiago, Sebastian Schuster and Matt Visser",
+        "year": 2021,
+        "format": "labelled"
+      },
+      "identifiers": [
+        {
+          "identifier": {
+            "kind": "arxiv",
+            "value": "2105.03079v2",
+            "url": "https://arxiv.org/abs/2105.03079v2",
+            "start": 154,
+            "end": 180
+          },
+          "resolution": {
+            "exists": true,
+            "resolved": true,
+            "metadata": {
+              "title": "Generic warp drives violate the null energy condition",
+              "authors": [
+                {
+                  "given": "Jessica",
+                  "family": "Santiago",
+                  "literal": "Jessica Santiago"
+                },
+                {
+                  "given": "Sebastian",
+                  "family": "Schuster",
+                  "literal": "Sebastian Schuster"
+                },
+                {
+                  "given": "Matt",
+                  "family": "Visser",
+                  "literal": "Matt Visser"
+                }
+              ],
+              "years": {
+                "preprint": 2021
+              },
+              "doi": "10.1103/PhysRevD.105.064038",
+              "arxiv": "2105.03079v2",
+              "source": "arxiv",
+              "journal_ref": ""
+            },
+            "attempts": [
+              {
+                "url": "https://export.arxiv.org/api/query?id_list=2105.03079v2",
+                "accept": "application/atom+xml",
+                "fetched_at": "2026-10-26T16:31:10.002059+00:00",
+                "status": 200,
+                "final_url": "https://export.arxiv.org/api/query?id_list=2105.03079v2",
+                "content_type": "application/atom+xml; charset=utf-8",
+                "body_sha256": "a1c7b3faf0df773e31428571d20f2ce857ffb6491f3e617533b5323fded7cb3b"
+              }
+            ]
+          },
+          "comparisons": {
+            "title": {
+              "status": "match",
+              "similarity": 1.0,
+              "threshold": 0.88,
+              "claimed": "Generic warp drives violate the null energy condition",
+              "numbers_match": true,
+              "heuristic": true
+            },
+            "authors": {
+              "status": "match",
+              "unmatched": [],
+              "uncertain": [],
+              "et_al": false,
+              "scope": "listed surnames, first initial, and full first-given-name heuristic; middle names not fully compared"
+            },
+            "year": {
+              "status": "match",
+              "claimed": 2021,
+              "actual": {
+                "preprint": 2021
+              }
+            }
+          },
+          "verdict": "一致",
+          "reasons": []
+        }
+      ],
+      "verdict": "一致",
+      "checked_scope": "bibliographic metadata only; missing claims are not checked; no abstract/scientific validity check"
+    },
+    {
+      "line": 29,
+      "text": "- Title: Analyzing warp drive spacetimes with Warp Factory; Authors: Christopher Helmerich, Jared Fuchs, Alexey Bobrick, Luke Sellers, Brandon Melcher and Gianni Martire; Year: 2024; doi: https://doi.org/10.1088/1361-6382/ad2e42",
+      "claims": {
+        "title": "Analyzing warp drive spacetimes with Warp Factory",
+        "title_candidates": [
+          "Analyzing warp drive spacetimes with Warp Factory"
+        ],
+        "authors": "Christopher Helmerich, Jared Fuchs, Alexey Bobrick, Luke Sellers, Brandon Melcher and Gianni Martire",
+        "year": 2024,
+        "format": "labelled"
+      },
+      "identifiers": [
+        {
+          "identifier": {
+            "kind": "doi",
+            "value": "10.1088/1361-6382/ad2e42",
+            "url": "https://doi.org/10.1088/1361-6382/ad2e42",
+            "start": 204,
+            "end": 228
+          },
+          "resolution": {
+            "exists": true,
+            "resolved": true,
+            "metadata": {
+              "title": "Analyzing warp drive spacetimes with Warp Factory",
+              "authors": [
+                {
+                  "given": "Christopher",
+                  "family": "Helmerich",
+                  "literal": ""
+                },
+                {
+                  "given": "Jared",
+                  "family": "Fuchs",
+                  "literal": ""
+                },
+                {
+                  "given": "Alexey",
+                  "family": "Bobrick",
+                  "literal": ""
+                },
+                {
+                  "given": "Luke",
+                  "family": "Sellers",
+                  "literal": ""
+                },
+                {
+                  "given": "Brandon",
+                  "family": "Melcher",
+                  "literal": ""
+                },
+                {
+                  "given": "Gianni",
+                  "family": "Martire",
+                  "literal": ""
+                }
+              ],
+              "years": {
+                "published": 2024,
+                "published-print": 2024,
+                "published-online": 2024,
+                "issued": 2024
+              },
+              "doi": "10.1088/1361-6382/ad2e42",
+              "source": "crossref"
+            },
+            "attempts": [
+              {
+                "url": "https://api.crossref.org/works/10.1088%2F1361-6382%2Fad2e42",
+                "accept": "application/json",
+                "fetched_at": "2026-10-26T16:31:11.012068+00:00",
+                "status": 200,
+                "final_url": "https://api.crossref.org/works/10.1088%2F1361-6382%2Fad2e42",
+                "content_type": "application/json",
+                "body_sha256": "9b1e0a6b7194f2e819e00f14ca253036acec8b297380b77d394845a963387f4f"
+              }
+            ]
+          },
+          "comparisons": {
+            "title": {
+              "status": "match",
+              "similarity": 1.0,
+              "threshold": 0.88,
+              "claimed": "Analyzing warp drive spacetimes with Warp Factory",
+              "numbers_match": true,
+              "heuristic": true
+            },
+            "authors": {
+              "status": "match",
+              "unmatched": [],
+              "uncertain": [],
+              "et_al": false,
+              "scope": "listed surnames, first initial, and full first-given-name heuristic; middle names not fully compared"
+            },
+            "year": {
+              "status": "match",
+              "claimed": 2024,
+              "actual": {
+                "published": 2024,
+                "published-print": 2024,
+                "published-online": 2024,
+                "issued": 2024
+              }
+            }
+          },
+          "verdict": "一致",
+          "reasons": []
+        }
+      ],
+      "verdict": "一致",
+      "checked_scope": "bibliographic metadata only; missing claims are not checked; no abstract/scientific validity check"
+    },
+    {
+      "line": 31,
+      "text": "- Title: Observer-robust energy condition verification for warp drive spacetimes; Authors: An T. Le; Year: 2026; arXiv: https://arxiv.org/abs/2602.18023v6",
+      "claims": {
+        "title": "Observer-robust energy condition verification for warp drive spacetimes",
+        "title_candidates": [
+          "Observer-robust energy condition verification for warp drive spacetimes"
+        ],
+        "authors": "An T. Le",
+        "year": 2026,
+        "format": "labelled"
+      },
+      "identifiers": [
+        {
+          "identifier": {
+            "kind": "arxiv",
+            "value": "2602.18023v6",
+            "url": "https://arxiv.org/abs/2602.18023v6",
+            "start": 128,
+            "end": 154
+          },
+          "resolution": {
+            "exists": true,
+            "resolved": true,
+            "metadata": {
+              "title": "Observer-robust energy condition verification for warp drive spacetimes",
+              "authors": [
+                {
+                  "given": "An T.",
+                  "family": "Le",
+                  "literal": "An T. Le"
+                }
+              ],
+              "years": {
+                "preprint": 2026
+              },
+              "doi": null,
+              "arxiv": "2602.18023v6",
+              "source": "arxiv",
+              "journal_ref": ""
+            },
+            "attempts": [
+              {
+                "url": "https://export.arxiv.org/api/query?id_list=2602.18023v6",
+                "accept": "application/atom+xml",
+                "fetched_at": "2026-10-26T16:31:13.012058+00:00",
+                "status": 200,
+                "final_url": "https://export.arxiv.org/api/query?id_list=2602.18023v6",
+                "content_type": "application/atom+xml; charset=utf-8",
+                "body_sha256": "2d7cd560088a93fa421072a07383d8baae91c3d9d348dadc0acd2c10ab3cd2f5"
+              }
+            ]
+          },
+          "comparisons": {
+            "title": {
+              "status": "match",
+              "similarity": 1.0,
+              "threshold": 0.88,
+              "claimed": "Observer-robust energy condition verification for warp drive spacetimes",
+              "numbers_match": true,
+              "heuristic": true
+            },
+            "authors": {
+              "status": "match",
+              "unmatched": [],
+              "uncertain": [],
+              "et_al": false,
+              "scope": "listed surnames, first initial, and full first-given-name heuristic; middle names not fully compared"
+            },
+            "year": {
+              "status": "match",
+              "claimed": 2026,
+              "actual": {
+                "preprint": 2026
+              }
+            }
+          },
+          "verdict": "一致",
+          "reasons": []
+        }
+      ],
+      "verdict": "一致",
+      "checked_scope": "bibliographic metadata only; missing claims are not checked; no abstract/scientific validity check"
+    },
+    {
+      "line": 33,
+      "text": "- Title: Asymptotic expansions by Γ-convergence; Authors: Andrea Braides and Lev Truskinovsky; Year: 2008; doi: https://doi.org/10.1007/s00161-008-0072-2",
+      "claims": {
+        "title": "Asymptotic expansions by Γ-convergence",
+        "title_candidates": [
+          "Asymptotic expansions by Γ-convergence"
+        ],
+        "authors": "Andrea Braides and Lev Truskinovsky",
+        "year": 2008,
+        "format": "labelled"
+      },
+      "identifiers": [
+        {
+          "identifier": {
+            "kind": "doi",
+            "value": "10.1007/s00161-008-0072-2",
+            "url": "https://doi.org/10.1007/s00161-008-0072-2",
+            "start": 128,
+            "end": 153
+          },
+          "resolution": {
+            "exists": true,
+            "resolved": true,
+            "metadata": {
+              "title": "Asymptotic expansions by Γ-convergence",
+              "authors": [
+                {
+                  "given": "Andrea",
+                  "family": "Braides",
+                  "literal": ""
+                },
+                {
+                  "given": "Lev",
+                  "family": "Truskinovsky",
+                  "literal": ""
+                }
+              ],
+              "years": {
+                "published": 2008,
+                "published-print": 2008,
+                "published-online": 2008,
+                "issued": 2008
+              },
+              "doi": "10.1007/s00161-008-0072-2",
+              "source": "crossref"
+            },
+            "attempts": [
+              {
+                "url": "https://api.crossref.org/works/10.1007%2Fs00161-008-0072-2",
+                "accept": "application/json",
+                "fetched_at": "2026-10-26T16:31:14.022065+00:00",
+                "status": 200,
+                "final_url": "https://api.crossref.org/works/10.1007%2Fs00161-008-0072-2",
+                "content_type": "application/json",
+                "body_sha256": "180a3287a3721489ed118ac925b28e77c64c1a5ec690e031b2fbae3d97978ca2"
+              }
+            ]
+          },
+          "comparisons": {
+            "title": {
+              "status": "match",
+              "similarity": 1.0,
+              "threshold": 0.88,
+              "claimed": "Asymptotic expansions by Γ-convergence",
+              "numbers_match": true,
+              "heuristic": true
+            },
+            "authors": {
+              "status": "match",
+              "unmatched": [],
+              "uncertain": [],
+              "et_al": false,
+              "scope": "listed surnames, first initial, and full first-given-name heuristic; middle names not fully compared"
+            },
+            "year": {
+              "status": "match",
+              "claimed": 2008,
+              "actual": {
+                "published": 2008,
+                "published-print": 2008,
+                "published-online": 2008,
+                "issued": 2008
+              }
+            }
+          },
+          "verdict": "一致",
+          "reasons": []
+        }
+      ],
+      "verdict": "一致",
+      "checked_scope": "bibliographic metadata only; missing claims are not checked; no abstract/scientific validity check"
+    }
+  ],
+  "input": {
+    "path": "REFERENCES.md",
+    "sha256": "4cfa30867b898de741da1d75cf29ddc3155293ac1c8eb16b855788e280dfb3ca"
+  },
+  "transport": {
+    "requests": [
+      {
+        "url": "https://api.crossref.org/works/10.1088%2F0264-9381%2F11%2F5%2F001",
+        "accept": "application/json",
+        "fetched_at": "2026-10-26T16:30:56.934043+00:00",
+        "status": 200,
+        "final_url": "https://api.crossref.org/works/10.1088%2F0264-9381%2F11%2F5%2F001",
+        "content_type": "application/json",
+        "body_sha256": "12046fffa42f04d211b73dd5d9b0abfb1a1c2d4c45d71bd8c06edcccc2a5bf3f"
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1088%2F0264-9381%2F14%2F7%2F011",
+        "accept": "application/json",
+        "fetched_at": "2026-10-26T16:30:57.939493+00:00",
+        "status": 200,
+        "final_url": "https://api.crossref.org/works/10.1088%2F0264-9381%2F14%2F7%2F011",
+        "content_type": "application/json",
+        "body_sha256": "7b966c2d9a79973df0088df2ff10d2d96ad0acce6df0dd5ba73980b130e9dd77"
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1088%2F0264-9381%2F21%2F24%2F011",
+        "accept": "application/json",
+        "fetched_at": "2026-10-26T16:30:58.947502+00:00",
+        "status": 200,
+        "final_url": "https://api.crossref.org/works/10.1088%2F0264-9381%2F21%2F24%2F011",
+        "content_type": "application/json",
+        "body_sha256": "06b342de399630393c0e31610e6ed1be07b922a022927b9a99e78e3b476e29dc"
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1088%2F1361-6382%2Fabdf6e",
+        "accept": "application/json",
+        "fetched_at": "2026-10-26T16:30:59.956751+00:00",
+        "status": 200,
+        "final_url": "https://api.crossref.org/works/10.1088%2F1361-6382%2Fabdf6e",
+        "content_type": "application/json",
+        "body_sha256": "2de2f07590c256931f1e7aac1108a9b4dca19b01c1a93b3efede8c5e3ff92932"
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2102.06824v2",
+        "accept": "application/atom+xml",
+        "fetched_at": "2026-10-26T16:31:00.966762+00:00",
+        "status": 200,
+        "final_url": "https://export.arxiv.org/api/query?id_list=2102.06824v2",
+        "content_type": "application/atom+xml; charset=utf-8",
+        "body_sha256": "3c5d088257ca9e127b4392ba576f2296ffe472b9df258be924a59c2def5eb45b"
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1088%2F0264-9381%2F19%2F6%2F308",
+        "accept": "application/json",
+        "fetched_at": "2026-10-26T16:31:01.969436+00:00",
+        "status": 200,
+        "final_url": "https://api.crossref.org/works/10.1088%2F0264-9381%2F19%2F6%2F308",
+        "content_type": "application/json",
+        "body_sha256": "cd072a082abe119d740276a30075d68076a4307d1b0ece6f2db78675f6628761"
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2609.36211v1",
+        "accept": "application/atom+xml",
+        "fetched_at": "2026-10-26T16:31:03.971433+00:00",
+        "status": 200,
+        "final_url": "https://export.arxiv.org/api/query?id_list=2609.36211v1",
+        "content_type": "application/atom+xml; charset=utf-8",
+        "body_sha256": "7523df4acc0937e3df768befc12f9a6b41adc08ca83decc656f0ac8daa61f697"
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1088%2F1361-6382%2Fabe692",
+        "accept": "application/json",
+        "fetched_at": "2026-10-26T16:31:04.981436+00:00",
+        "status": 200,
+        "final_url": "https://api.crossref.org/works/10.1088%2F1361-6382%2Fabe692",
+        "content_type": "application/json",
+        "body_sha256": "8c1b703e3c549cd45406ad2aada8fbe70d9b9e10e76b55476b24c75fae11b6b9"
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2006.07125v2",
+        "accept": "application/atom+xml",
+        "fetched_at": "2026-10-26T16:31:06.981433+00:00",
+        "status": 200,
+        "final_url": "https://export.arxiv.org/api/query?id_list=2006.07125v2",
+        "content_type": "application/atom+xml; charset=utf-8",
+        "body_sha256": "ee8067600a2c5fea3e7b79649405aa41e5800f39cf7531790b2e5166f57cbd97"
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1088%2F1361-6382%2Fac0e47",
+        "accept": "application/json",
+        "fetched_at": "2026-10-26T16:31:07.991119+00:00",
+        "status": 200,
+        "final_url": "https://api.crossref.org/works/10.1088%2F1361-6382%2Fac0e47",
+        "content_type": "application/json",
+        "body_sha256": "27b7092107b285c714708080d774037763ac3b53e667911961c3bae9816ac073"
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1103%2FPhysRevD.105.064038",
+        "accept": "application/json",
+        "fetched_at": "2026-10-26T16:31:09.001141+00:00",
+        "status": 200,
+        "final_url": "https://api.crossref.org/works/10.1103%2FPhysRevD.105.064038",
+        "content_type": "application/json",
+        "body_sha256": "4755051400f6e982e54dc9717f6ab0c8d09418eb81249c963e013c7033dd0319"
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2105.03079v2",
+        "accept": "application/atom+xml",
+        "fetched_at": "2026-10-26T16:31:10.002059+00:00",
+        "status": 200,
+        "final_url": "https://export.arxiv.org/api/query?id_list=2105.03079v2",
+        "content_type": "application/atom+xml; charset=utf-8",
+        "body_sha256": "a1c7b3faf0df773e31428571d20f2ce857ffb6491f3e617533b5323fded7cb3b"
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1088%2F1361-6382%2Fad2e42",
+        "accept": "application/json",
+        "fetched_at": "2026-10-26T16:31:11.012068+00:00",
+        "status": 200,
+        "final_url": "https://api.crossref.org/works/10.1088%2F1361-6382%2Fad2e42",
+        "content_type": "application/json",
+        "body_sha256": "9b1e0a6b7194f2e819e00f14ca253036acec8b297380b77d394845a963387f4f"
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?id_list=2602.18023v6",
+        "accept": "application/atom+xml",
+        "fetched_at": "2026-10-26T16:31:13.012058+00:00",
+        "status": 200,
+        "final_url": "https://export.arxiv.org/api/query?id_list=2602.18023v6",
+        "content_type": "application/atom+xml; charset=utf-8",
+        "body_sha256": "2d7cd560088a93fa421072a07383d8baae91c3d9d348dadc0acd2c10ab3cd2f5"
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1007%2Fs00161-008-0072-2",
+        "accept": "application/json",
+        "fetched_at": "2026-10-26T16:31:14.022065+00:00",
+        "status": 200,
+        "final_url": "https://api.crossref.org/works/10.1007%2Fs00161-008-0072-2",
+        "content_type": "application/json",
+        "body_sha256": "180a3287a3721489ed118ac925b28e77c64c1a5ec690e031b2fbae3d97978ca2"
+      }
+    ],
+    "cache_hits": 0,
+    "sequential": true,
+    "minimum_interval_seconds": 1,
+    "arxiv_interval_seconds": 3
+  }
+}

@@ -1,0 +1,572 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=25mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools,booktabs}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=blue!55!black,
+ urlcolor=blue!55!black,pdfauthor={Tatsuhiko Takimoto},
+ pdftitle={Sharp first-order energy correction under an Eulerian tidal bound}}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newcommand{\R}{\mathbb R}
+\newcommand{\dd}{\,\mathrm d}
+\newcommand{\opnorm}[1]{\left\lVert #1\right\rVert_2}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\TV}{\operatorname{TV}}
+\numberwithin{equation}{section}
+\title{Sharp first-order energy correction under an Eulerian tidal bound for finite-wall Alcubierre profiles}
+\author{Tatsuhiko Takimoto}
+\date{27 October 2026 \quad (version 1.2)}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We consider the stationary Alcubierre metric with speed \(v=1/10\) and globally
+\(C^2\), monotone radial profiles that match constant interior and exterior
+values at radii \(1\) and \(R\in[3/2,3]\). For the Eulerian normal, we bound the
+spectral norm of the electric part of the full Riemann tensor by \(\eta v^2\)
+at every point of the wall. If \(J_R^*(\eta)\) denotes the infimum of
+\(\int_1^R r^2 f'(r)^2\dd r\) over this class, then
+\[
+ \eta\left[J_R^*(\eta)-\frac{R}{R-1}\right]
+ \longrightarrow \frac{1}{3R(R-1)^3}
+\]
+uniformly in \(R\) as \(\eta\to\infty\). An axial necessary condition gives a
+lower bound for every admissible profile. A normalized, smoothed ramp
+construction gives an upper bound satisfying the tidal constraint at all
+angles. The errors in the scaled lower and upper bounds are respectively
+\(O(\eta^{-1/2})\) and \(O(\eta^{-1})\), uniformly in \(R\).
+No minimizing profile or uniform higher-derivative bound is assumed.
+Eighteen exact rational enclosures illustrate the bounds.
+\end{abstract}
+
+\section{Introduction}
+
+Alcubierre's metric provides a concrete setting in which a prescribed
+spacetime geometry determines an Eulerian energy density
+\cite{alcubierre}. Pfenning and Ford related curvature scales, wall thickness
+and quantum-inequality restrictions \cite{pfenningford}. Lobo and Visser
+used a volume integral to quantify negative energy and distinguished that
+quantity from ADM mass \cite{lobovisser}. The present problem concerns the
+cost of imposing a pointwise tidal bound on a fixed finite wall.
+
+Shape optimization is already part of this literature. Bobrick and Martire
+\cite[arXiv v2, App.~A.3]{bobrickmartire} vary the radial energy functional
+and obtain a harmonic profile. Nat\'ario's divergence-free
+shift construction \cite{natario} leads to a different admissible class.
+For that class, Bol\'ivar, Vasilev and Abell\'an report a sharp Eulerian
+energy minimum and a thin-wall asymptotic through a Stokes-flow
+formulation \cite{bolivar}. Here the wall width stays in \([1/2,2]\).
+The small scale instead arises from endpoint layers as the allowed
+electric tidal norm increases.
+
+General shift constructions by Lentz \cite{lentz} and Fell and Heisenberg
+\cite{fellheisenberg}, and the curvature and observer analysis of Santiago,
+Schuster and Visser \cite{santiago}, provide further context. In particular,
+Eulerian density and energy conditions involving other observers are
+different questions. Warp Factory \cite{warpfactory} provides computational
+tools for geometry and energy-condition analysis; Le reports
+observer-robust verification methods in Warpax \cite{warpax}. Our conclusion is an analytic asymptotic for a
+specified scalar profile class. Higher-order variational expansions have
+a general framework \cite{braides}; the proof here uses direct inequalities
+and an explicit recovery family.
+
+The quantity determined below is the first correction to the harmonic
+energy floor under an all-angle electric-Riemann norm constraint.
+The outer endpoint forces a linear loss in the rescaled profile.
+At the inner endpoint, the vanishing shift permits a much thinner
+transition. This asymmetry determines the coefficient.
+
+\section{The variational problem and the main result}\label{sec:problem}
+
+Work in units \(G=c_{\mathrm{light}}=1\), fix \(v=1/10\), and write
+\begin{equation}\label{eq:metric}
+ \dd s^2=-\dd t^2+\dd x^2+\dd y^2+
+ \bigl(\dd z+v(1-f(r))\dd t\bigr)^2,\qquad
+ r=(x^2+y^2+z^2)^{1/2}.
+\end{equation}
+For \(R\in[3/2,3]\), the profile \(f\) is globally \(C^2\) and satisfies
+\[
+ f=1\ \text{on }[0,1],\qquad f=0\ \text{on }[R,\infty),
+ \qquad f'\le0.
+\]
+Thus \(f'=f''=0\) at both matching radii. There is no uniform bound on
+derivatives of order three or higher. Set
+\[
+ h=1-f,\qquad p=h'=-f',\qquad
+ n=\partial_t-vh\,\partial_z.
+\]
+The spatial vectors \(\partial_x,\partial_y,\partial_z\) form an
+orthonormal frame perpendicular to \(n\). Let
+\begin{equation}\label{eq:Edef}
+ E_{ij}=R_{i\alpha j\beta}n^\alpha n^\beta,\qquad
+ \opnorm{E/v^2}\le\eta \quad\text{at every wall radius and angle}.
+\end{equation}
+Here \(E\) is the electric part of the full Riemann tensor, and
+\(\opnorm{\cdot}\) is the Euclidean operator norm. An overall reversal of
+the curvature sign does not affect the constraint. The unit lapse makes
+the Eulerian normal geodesic, so \(E\) is its geodesic-deviation tensor.
+For any fixed nonzero \(v\), both \(E/v^2\) and \(J\) below are independent
+of \(v\); the choice \(v=1/10\) fixes the energy conversion
+in \eqref{eq:physical-energy}.
+
+Let \(\mathcal A_R(\eta)\) be the class just defined, for \(\eta\ge128\), and
+put
+\begin{equation}\label{eq:energy-index}
+ J(f)=\int_1^R r^2p(r)^2\dd r,\qquad
+ J_R^*(\eta)=\inf_{f\in\mathcal A_R(\eta)}J(f).
+\end{equation}
+For later use, define
+\begin{equation}\label{eq:constants}
+ C=\frac{R}{R-1},\qquad a=\frac{1}{R(R-1)},\qquad
+ K_R=\frac{R^2a^3}{3}=\frac{1}{3R(R-1)^3}.
+\end{equation}
+In this range \(3/2\le C\le3\), \(1/6\le a\le4/3\), and \(K_R\le16/9\).
+
+\begin{theorem}\label{thm:main}
+For every \(R\in[3/2,3]\) and \(\eta\ge128\), the class
+\(\mathcal A_R(\eta)\) is nonempty and
+\begin{equation}\label{eq:finite-lower}
+ \eta\bigl(J_R^*(\eta)-C\bigr)\ge L_R(\eta):=
+ \frac{(R-a/\eta)^2a^3}{3}
+       \left(1-2\sqrt{a/\eta}\right).
+\end{equation}
+The constants \(B_-=5\), \(B_+=61000\), and \(\eta_0=128\), independent
+of \(R\), satisfy, for all \(\eta\ge\eta_0\),
+\begin{equation}\label{eq:error-bounds}
+ K_R-B_-\eta^{-1/2}
+ \le \eta\bigl(J_R^*(\eta)-C\bigr)
+ \le K_R+B_+\eta^{-1}.
+\end{equation}
+Consequently,
+\begin{equation}\label{eq:uniform-limit}
+ \lim_{\eta\to\infty}
+ \sup_{R\in[3/2,3]}
+ \left|\eta\left[J_R^*(\eta)-\frac{R}{R-1}\right]
+             -\frac{1}{3R(R-1)^3}\right|=0 .
+\end{equation}
+No attainment of the infimum is required.
+\end{theorem}
+
+The coefficient is sharp because a lower bound for the entire admissible
+class and an admissible family have the same first-order limit.
+The rates in \eqref{eq:error-bounds} are estimates for the bounds; we do
+not assert that they are optimal convergence rates.
+
+\section{Curvature and the energy functional}\label{sec:curvature}
+
+Use the convention
+\[
+ R^a{}_{cmn}=\partial_m\Gamma^a_{nc}-\partial_n\Gamma^a_{mc}
+       +\Gamma^a_{mk}\Gamma^k_{nc}-\Gamma^a_{nk}\Gamma^k_{mc}.
+\]
+For a stationary shift \(b\,\partial_z\), set \(d=\nabla b\),
+\(H=\nabla^2b\) and \(e=(0,0,1)^T\). The nontrivial inverse metric
+components are \(g^{tt}=-1\), \(g^{tz}=b\), and \(g^{zz}=1-b^2\).
+Direct evaluation of the Christoffel symbols and contraction with
+\(n=(1,0,0,-b)\) give
+\begin{equation}\label{eq:Egeneral}
+ \begin{split}
+ E={}&-\frac b2\bigl((He)e^T+e(He)^T\bigr)
+       -\frac34dd^T\\
+    &-\frac{b_z}{4}(de^T+ed^T)
+       +\frac{|d|^2}{4}ee^T.
+ \end{split}
+\end{equation}
+This is a specialization of the flat-slice curvature identities discussed
+in \cite[arXiv v2, Sec.~3.1]{santiago}. For example, it also follows by taking
+\(\mathsf K=(de^T+ed^T)/2\) and expanding
+\[
+ E=-\mathcal L_{be}\mathsf K+\mathsf K^2,\qquad
+ \mathcal L_{be}\mathsf K=b\,\partial_z\mathsf K+
+                  d(e^T\mathsf K)+(\mathsf K e)d^T
+\]
+in the present stationary convention.
+
+Substitute \(b=vh\). Rotational symmetry about the \(z\)-axis allows the
+radial unit vector to be written as \((s,0,u)\), with
+\(u\in[-1,1]\) and \(s=\sqrt{1-u^2}\). Then
+\begin{equation}\label{eq:radial-E}
+ E/v^2=\begin{pmatrix}A&0&B\\0&0&0\\B&0&D\end{pmatrix},
+ \quad
+ \begin{aligned}
+ A&=-\tfrac34p^2(1-u^2),\\
+ B&=-\tfrac h2(p'-p/r)su-p^2su,\\
+ D&=-hp'u^2-\tfrac{hp}{r}(1-u^2)
+                         +\tfrac{1-5u^2}{4}p^2 .
+ \end{aligned}
+\end{equation}
+On the axis, \(E_{zz}/v^2=-hp'-p^2=-(hp)'\). Thus every admissible
+profile satisfies
+\begin{equation}\label{eq:necessary}
+ |(hp)'|\le\eta .
+\end{equation}
+For the upper construction we need an estimate valid at every angle:
+\begin{equation}\label{eq:sufficient}
+ \opnorm{E/v^2}\le |hp'|+\frac{hp}{r}+\frac32p^2.
+\end{equation}
+Here \(h,p\ge0\). The coefficient of \(hp'\) has norm
+\((u^2+|u|)/2\le1\). The coefficient of \(hp/r\) has norm
+\((\sqrt{1-u^2}+1-u^2)/2\le1\). The remaining terms in
+\eqref{eq:radial-E} have total norm at most
+\(p^2[3/4+|u|(1+|u|)/4+1/4]\le3p^2/2\).
+The axial condition is used only as a necessary condition; it is not
+substituted for the all-angle constraint.
+
+The Einstein contraction, with \(G_{ab}=8\pi T_{ab}\), is
+\[
+ G(n,n)=-\frac{b_x^2+b_y^2}{4},\qquad
+ \rho=T(n,n)=-\frac{v^2p^2\sin^2\theta}{32\pi}.
+\]
+The Hamiltonian expression
+\(\bigl((\tr\mathsf K)^2-\tr(\mathsf K^2)\bigr)/2\)
+gives the same contraction. Since the spatial slice is Euclidean,
+\begin{equation}\label{eq:physical-energy}
+ \mathcal E:=\int_{\Sigma_t}\rho\dd V
+       =-\frac{v^2}{12}\int_1^R r^2p^2\dd r
+       =-\frac{J}{1200}.
+\end{equation}
+Thus \(J\) is proportional to the magnitude of this negative Eulerian
+volume integral. Its interpretation as a slice integral follows
+\cite{alcubierre,lobovisser}; it is not an ADM mass.
+
+\section{A lower bound for every admissible profile}\label{sec:lower}
+
+Let \(p_0(r)=C/r^2\). We have \(\int_1^R p_0\dd r=1\) and
+\(\int_1^R r^2p_0^2\dd r=C\). Since every profile also has
+\(\int_1^R p\dd r=1\), expansion of the square gives the exact identity
+\begin{equation}\label{eq:square}
+ J-C=\int_1^R r^2(p-p_0)^2\dd r\ge0.
+\end{equation}
+The reference function \(p_0\) does not satisfy the endpoint conditions.
+
+Put \(w=hp\). Equation \eqref{eq:necessary} and \(w(R)=0\) imply
+\begin{equation}\label{eq:outer-cap}
+ hp(r)\le\eta(R-r).
+\end{equation}
+First consider profiles for which \(J\le C+4/\eta<4\).
+Since \(a/\eta\le1/96<1/2\le R-1\), the interval
+\([R-a/\eta,R]\) lies inside the wall. On it,
+\(\int_r^R t^{-2}\dd t=(R-r)/(rR)\le R-r\), so Cauchy--Schwarz gives
+\[
+ 1-h(r)=\int_r^R p(t)\dd t
+ \le\left(J\int_r^R t^{-2}\dd t\right)^{1/2}
+ \le2\sqrt{R-r}\le2\sqrt{a/\eta}=:\beta<1 .
+\]
+In fact \(\beta\le2\sqrt{(4/3)/128}<0.21\). On the smaller interval
+\(0\le t=R-r\le a(1-\beta)/\eta\), the ordering
+\[
+ p(r)\le\frac{\eta t}{1-\beta}\le a\le p_0(r)
+\]
+permits squaring \(p_0-p\ge a-\eta t/(1-\beta)\ge0\).
+Restricting \eqref{eq:square} to this interval therefore yields
+\[
+ \begin{split}
+ \eta(J-C)
+ &\ge \eta(R-a/\eta)^2
+       \int_0^{a(1-\beta)/\eta}
+          \left(a-\frac{\eta t}{1-\beta}\right)^2\dd t\\
+ &=\frac{(R-a/\eta)^2a^3(1-\beta)}{3}=L_R(\eta).
+ \end{split}
+\]
+The integration interval lies inside the wall. If \(J>C+4/\eta\),
+then \(\eta(J-C)>4>K_R\ge L_R(\eta)\), so the same conclusion holds.
+Taking the infimum proves \eqref{eq:finite-lower}. The bounds on
+\(R\) and \(a\) imply
+\begin{equation}\label{eq:lower-asymptotic}
+ L_R(\eta)=K_R+O(\eta^{-1/2})
+\end{equation}
+uniformly in \(R\). More explicitly,
+\[
+ 0\le K_R-L_R(\eta)
+ \le K_R\left(\frac{2a}{R\eta}+2\sqrt{a/\eta}\right)
+ \le5\eta^{-1/2}.
+\]
+For the last step use \(K_R\le16/9\), \(2a/R\le16/9\),
+\(1/\sqrt{128}<1/11\), and \(4/\sqrt3<7/3\).
+This argument applies to all admissible \(C^2\)
+profiles, including those far from the energy floor.
+
+\section{An admissible recovery family}\label{sec:recovery}
+
+\subsection{Construction and normalization}
+
+For \(\eta\ge128\), set
+\[
+ \gamma=\eta-64\ge64,\qquad \delta=\eta^{-3},\qquad
+ \epsilon=\eta^{-4}<\delta .
+\]
+Define on \([1,R]\)
+\begin{equation}\label{eq:raw-profile}
+ q_\eta(r)=\min\left\{\frac C{r^2},
+             \frac C\delta(r-1-\delta)_+,
+             \gamma(R-\delta-r)_+\right\}
+\end{equation}
+and extend it by zero outside the wall. The three active pieces are an
+increasing line, \(C/r^2\), and a decreasing line. Their junctions satisfy
+\begin{equation}\label{eq:junctions}
+ \begin{gathered}
+ (\alpha-1-\delta)\alpha^2=\delta,\qquad
+          1+\delta\le\alpha\le1+2\delta,\\
+ (R-\delta-\zeta)\zeta^2=C/\gamma,\qquad
+          R-\delta-C/\gamma\le\zeta\le R-\delta.
+ \end{gathered}
+\end{equation}
+The two intervals are disjoint. The inner line increases while
+\(C/r^2\) decreases. The function \((R-\delta-r)r^2\) is unimodal,
+is greater than \(C/\gamma\) at \(r=1\), and is decreasing on the
+outer junction interval, because
+\[
+ \frac C\gamma\le\frac3{64}<\frac{R-\delta}{3},\qquad
+ R-1-\delta\ge\frac12-128^{-3}>\frac3{64}.
+\]
+Also \((r-1-\delta)r^2\) is strictly increasing on the inner interval.
+These inequalities give the unique stated junctions and decomposition.
+In particular,
+\[
+ 0\le q_\eta\le C,\qquad \TV(q_\eta)\le2C,\qquad
+       -\gamma\le q_\eta'\le C/\delta\quad\text{a.e.}
+\]
+Here the derivative on the harmonic piece is at least \(-6\ge-\gamma\).
+
+Write \(I=\int_1^R q_\eta\dd r\).
+The missing mass at the inner end is at most \(2C\delta\).
+At the outer end, the zero strip loses at most \(C\delta\);
+comparison with a ramp under the constant \(C\) bounds the remaining
+loss by \(C^2/(2\gamma)\). Hence
+\begin{equation}\label{eq:Ibound}
+ 1-I\le3C\delta+\frac{C^2}{2\gamma}\le\frac8\gamma,
+ \qquad \frac78\le I\le1 .
+\end{equation}
+The last estimate follows from \(C\le3\) and
+\(9\eta^{-3}\le 7/[2(\eta-64)]\).
+
+Use the nonnegative even kernel
+\[
+ \kappa(t)=\frac{15}{16}(1-t^2)^2\mathbf1_{\{|t|\le1\}},
+ \qquad \kappa_\epsilon(t)=\epsilon^{-1}\kappa(t/\epsilon).
+\]
+It has mass one and first absolute moment \(5/16\). Define
+\begin{equation}\label{eq:smoothed-profile}
+ p_\eta=\frac{q_\eta*\kappa_\epsilon}{I},\qquad
+ h_\eta(r)=\int_1^r p_\eta(t)\dd t,\qquad f_\eta=1-h_\eta.
+\end{equation}
+Extend \(h_\eta\) by 0 and 1 on the inner and outer constant regions.
+Since \(\epsilon<\delta\), the support of \(p_\eta\) stays strictly
+inside the wall. Since \(q_\eta\) is Lipschitz,
+\((q_\eta*\kappa_\epsilon)'=q_\eta'*\kappa_\epsilon\) is continuous;
+nonnegativity and unit mass of the kernel preserve the a.e. derivative
+bounds. Hence \(f_\eta\) is globally \(C^2\), is monotone, and has both required zero derivatives
+at the endpoints. Its normalization is exact.
+
+\subsection{The tidal bound at all wall points}
+
+Put \(A=C/I\le24/7<4\). Then
+\[
+ p_\eta\le A,\qquad -\gamma/I\le p_\eta'\le A/\delta.
+\]
+The derivative \(q_\eta'\) is positive only on \((1+\delta,\alpha)\)
+and is nonpositive a.e. on \([\alpha,R]\).
+If \(p_\eta'(r)>0\), the convolution window meets
+\((1+\delta,\alpha)\), so \(r\le1+2\delta+\epsilon\). There
+\[
+ h_\eta\le A(2\delta+\epsilon)\le3A\delta,\qquad
+ h_\eta p_\eta'\le3A^2<48.
+\]
+If \(p_\eta'<0\), then
+\[
+ |h_\eta p_\eta'|\le\frac{\gamma}{I}
+ \le\frac{\gamma}{1-8/\gamma}
+ \le\gamma+\frac{64}{7}<\eta-54.
+\]
+The remaining terms in \eqref{eq:sufficient} satisfy
+\[
+ h_\eta p_\eta/r+\tfrac32p_\eta^2<4+24=28 .
+\]
+Thus the right side of \eqref{eq:sufficient} is less than \(76\le\eta\)
+on the increasing part and less than \(\eta-26\) on the decreasing
+part; the case \(p_\eta'=0\) is immediate. This proves
+\(f_\eta\in\mathcal A_R(\eta)\) for every parameter pair in the stated
+range, without angular sampling.
+
+\subsection{The first correction, uniformly in \texorpdfstring{\(R\)}{R}}
+
+Let \(J_q=\int_1^R r^2q_\eta^2\dd r\).
+The inner transition changes mass and energy by \(O(\delta)\),
+uniformly in \(R\). For the outer layer, set
+\[
+ x=\gamma(R-r),\qquad \lambda=\gamma\delta=O(\gamma^{-2}),
+ \qquad x_0=\gamma(R-\zeta)\in[\lambda,\lambda+C]\subset[0,4].
+\]
+At the junction,
+\[
+ x_0-\lambda=\frac{C}{(R-x_0/\gamma)^2}.
+\]
+The derivative of \(p_0=C/r^2\) is bounded in absolute value by 6
+throughout the wall. Therefore, on this bounded \(x\)-interval,
+\begin{equation}\label{eq:uniform-local}
+ p_0(R-x/\gamma)=a+O(\gamma^{-1}),\quad
+ (R-x/\gamma)^2=R^2+O(\gamma^{-1}),\quad
+ x_0=a+O(\gamma^{-1})
+\end{equation}
+uniformly in \(R\). For example, each of the first two errors is at
+most \(24/\gamma\), and \(|x_0-a|\le\lambda+24/\gamma\).
+On the outer piece \(q_\eta=(x-\lambda)_+\). Changing the integration
+endpoint from \(x_0\) to \(a\) and using
+\eqref{eq:uniform-local} gives
+\begin{align}
+ 1-I&=\frac1\gamma\int_0^a(a-x)\dd x+O(\gamma^{-2})
+       =\frac{a^2}{2\gamma}+O(\gamma^{-2}),\label{eq:mass-exp}\\
+ C-J_q&=\frac{R^2}{\gamma}\int_0^a(a^2-x^2)\dd x+O(\gamma^{-2})
+       =\frac{2R^2a^3}{3\gamma}+O(\gamma^{-2}).\label{eq:energy-exp}
+\end{align}
+For explicit remainder bounds, there are four contributions. The inner
+losses are at most \(6\delta\) in mass and \(18\delta\) in energy.
+In the outer integral, variation of \(p_0\) contributes at most
+\(96/\gamma\) in mass; variation of \(r^2\) and \(p_0^2\) contributes
+\((1536+3744)/\gamma\) in energy. The ramp shift obeys
+\[
+ |(x-\lambda)_+-x|\le\lambda,\qquad
+ |(x-\lambda)_+^2-x^2|\le2x\lambda;
+\]
+its contributions are at most \(4\lambda\) and \(288\lambda\).
+Finally, moving the endpoint to \(a\) contributes at most
+\(4(\lambda+24/\gamma)\) and \(144(\lambda+24/\gamma)\).
+The outer contributions carry the factor \(1/\gamma\). Since
+\(\delta\le\gamma^{-3}\), \(\lambda\le\gamma^{-2}\), and \(\gamma\ge64\),
+these estimates give
+\begin{equation}\label{eq:explicit-remainders}
+ \left|I-1+\frac{a^2}{2\gamma}\right|\le\frac{200}{\gamma^2},
+ \qquad
+ \left|J_q-C+\frac{2K_R}{\gamma}\right|\le\frac{9000}{\gamma^2}.
+\end{equation}
+Here \(|a-x|\le4\), \(|R^2(a^2-x^2)|\le144\),
+\(|p_0^2-(x-\lambda)_+^2|\le16\), and
+\(|p_0^2-a^2|\le(3+4/3)24/\gamma=104/\gamma\)
+justify the constants above on \(0\le x\le\max(a,x_0)\) where needed.
+
+Using \(I\ge7/8\) and \(C=R^2a\), normalization now gives
+\begin{equation}\label{eq:normalized-exp}
+ \frac{J_q}{I^2}
+ =C+\frac{Ca^2-2R^2a^3/3}{\gamma}+O(\gamma^{-2})
+ =C+\frac{K_R}{\gamma}+O(\gamma^{-2}).
+\end{equation}
+For a numerical remainder constant, put \(t=1-I\le8/\gamma\le1/8\).
+Then
+\[
+ 0\le(1-t)^{-2}-1-2t
+ =\frac{t^2(3-2t)}{(1-t)^2}\le4t^2,
+ \qquad
+ \left|I^{-2}-1-\frac{a^2}{\gamma}\right|
+ \le\frac{700}{\gamma^2}.
+\]
+Expanding \(J_q/I^2\) with \eqref{eq:explicit-remainders} bounds the
+remainder in \eqref{eq:normalized-exp} by \(14000/\gamma^2\): indeed
+\[
+ 3\cdot700+\frac{32}{9}\frac{16}{9}
+ +\frac{32}{9}\frac{700}{64}+9000\frac{64}{49}<14000.
+\]
+To control smoothing, the translation bound for total variation implies
+\[
+ \|q_\eta*\kappa_\epsilon-q_\eta\|_{L^1}
+ \le\TV(q_\eta)\epsilon\int |t|\kappa(t)\dd t
+ \le\frac58 C\epsilon .
+\]
+Both functions are bounded by \(C\) and supported inside \([1,R]\).
+Consequently
+\begin{equation}\label{eq:smoothing-error}
+ \left|\int_1^R r^2(q_\eta*\kappa_\epsilon)^2\dd r-J_q\right|
+ \le \frac54R^2C^2\epsilon=:D_\eta .
+\end{equation}
+Convolution preserves the mass. Since
+\(D_\eta/I^2\le(5/4)81(64/49)\gamma^{-4}\), we obtain the uniform bound
+\[
+ \left|J(f_\eta)-C-\frac{K_R}{\gamma}\right|
+ \le\frac{15000}{\gamma^2}.
+\]
+Finally, \(\eta/\gamma\le2\) gives
+\[
+ \eta(J(f_\eta)-C)
+ \le K_R+\frac{64K_R}{\gamma}+\frac{15000\eta}{\gamma^2}
+ \le K_R+\frac{128K_R+60000}{\eta}
+ \le K_R+\frac{61000}{\eta}.
+\]
+Together with the explicit lower error estimate, this proves
+Theorem~\ref{thm:main} with the stated constants.
+
+\section{Rational enclosures and reproduction}\label{sec:numerics}
+
+For rational \(R,\eta\), all construction parameters are rational except
+the algebraic junctions. We enclose those junctions by 256 rational
+bisection steps in the monotone intervals \eqref{eq:junctions}.
+Set \(a_0=1+\delta\), \(b_0=R-\delta\),
+\(S=\alpha-a_0\), and \(T=b_0-\zeta\). Exact integration gives
+\begin{align}
+ I={}&\frac{C}{2\delta}S^2
+       +C(1/\alpha-1/\zeta)+\frac{\gamma}{2}T^2,\label{eq:exact-I}\\
+ J_q={}&(C/\delta)^2
+       \left(\frac{a_0^2S^3}{3}+\frac{a_0S^4}{2}+\frac{S^5}{5}\right)
+       +C^2(1/\alpha-1/\zeta)\notag\\
+     &+\gamma^2
+       \left(\frac{b_0^2T^3}{3}-\frac{b_0T^4}{2}+\frac{T^5}{5}\right).
+       \label{eq:exact-J}
+\end{align}
+Each integral is monotone under enlargement of its interval because its
+integrand is nonnegative. Applying this fact separately to the three
+pieces produces rational bounds \(I_-\le I\le I_+\) and
+\(Q_-\le J_q\le Q_+\). Equation \eqref{eq:smoothing-error} then gives
+\begin{equation}\label{eq:rational-upper}
+ \frac{Q_--D_\eta}{I_+^2}\le J(f_\eta)
+ \le\frac{Q_++D_\eta}{I_-^2},
+\end{equation}
+with a positive lower numerator in all tabulated cases.
+An integer-square-root construction gives a rational upper bound for
+\(\sqrt{a/\eta}\), and hence a rational lower bound in
+\eqref{eq:finite-lower}.
+
+Table~\ref{tab:enclosures} lists enclosures of
+\(\Xi_R(\eta)=\eta[J_R^*(\eta)-C]\).
+Its upper endpoint comes from the explicit admissible family, not from
+locating an optimizer. All arithmetic preceding decimal presentation
+uses exact fractions; decimal endpoints are rounded outward.
+The exact rational endpoints and the generating script
+\texttt{reproduce.py} accompany this paper.
+An additional 120-digit, piecewise quadrature calculation reproduces the
+unsmoothed mass and energy inside their rational enclosures.
+The finite calculations check the formulas and construction; the
+uniform theorem follows from the preceding analytic bounds.
+
+\input{table.tex}
+
+\section{Scope and further questions}
+
+The result concerns the fixed one-component shift in
+\eqref{eq:metric}, monotone radial \(C^2\) profiles with exact endpoint
+matching, the stated Eulerian normal, and the electric part of the full
+Riemann tensor. The wall width does not tend to zero. The theorem neither
+bounds the remaining curvature components or other observers' tidal
+measurements nor addresses matter realizability, quantum inequalities,
+stability, or the satisfaction of energy conditions. Existence and
+uniqueness of a finite-\(\eta\) optimizer, sharper remainder estimates,
+and additional derivative constraints remain separate questions.
+
+The proof is analytic. The accompanying Lean file records a weaker
+statement with existential error constants, rather than the explicit
+constants of Theorem~\ref{thm:main}. It formalizes neither the proof nor
+the metric-to-matrix derivation. Symbolic algebra and exact rational calculations support
+reproducibility. This draft has not undergone human peer review.
+The supplementary \texttt{VERIFICATION-RECORD.md} records the computational
+and derivational checks.
+
+\paragraph{AI assistance.}
+Claude and Codex were used for mathematical exploration, derivation,
+implementation, literature organization, and drafting. They are tools,
+not authors. The named author is responsible for the content and for
+decisions about publication.
+
+\small
+\input{bibliography.tex}
+\end{document}
